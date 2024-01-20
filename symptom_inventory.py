@@ -36,8 +36,7 @@ def df_subset(df, col_name, terms, equal, include):
 
 df = df_subset(df, "PRODUCT_TYPE", ["SUSPECT"], True, True)
 df = df_subset(df, "PRODUCT", ["EXEMPTION 4"], True, False)
-df = df_subset(df, "REPORT_ID", ["2023"], False, True)
-df = df_subset(df, "REPORT_ID", ["2023"], False, True)
+#df = df_subset(df, "REPORT_ID", ["2023"], False, True)
 
 
 """
@@ -67,13 +66,15 @@ Input: input_dict, the dictionary returned by calling symptom_prevalence on the 
         filename, name of the file you want to print the dictionary to
 Outputs: Returns the sorted dictionary and writes it to filename
 """
-def dict_sort(input_dict, filename):      
+def dict_sort(input_dict, filename, header=None):      
     freq_dict = {}
     for item in input_dict:
         freq_dict[item] = len(input_dict[item])
     sorted_freqs = dict(sorted(freq_dict.items(), key=lambda item: item[1], reverse = True))
     # writes the dictionary sorted in decreasing order of frequency to the given filename
     with open(filename, 'w') as f:
+        if header != None:
+            f.write(header + "\n\n")
         for freq in sorted_freqs:
             line = freq + " : " + str(sorted_freqs[freq]) + "\n"
             f.write(line)
@@ -134,6 +135,11 @@ vitamins = df_subset(df, "PRODUCT_CODE", ["54"], True, True)
 symptoms_54 = symptom_prevalence(vitamins)
 dict_sort(symptoms_54, "vitaminsymptoms.txt")
 
+# food dyes
+dyes = df_subset(df, "PRODUCT_CODE", ["50"], True, True)
+symptoms_50 = symptom_prevalence(dyes)
+dict_sort(symptoms_50, "dyesymptoms.txt")
+
 #symptom_types = ["cardiac" : ]
 
 #word_freq = df.DESCRIPTION.str.split(expand = True).stack().value_counts()
@@ -141,13 +147,35 @@ dict_sort(symptoms_54, "vitaminsymptoms.txt")
 category_types = symptom_prevalence(df, "DESCRIPTION", False, None)
 dict_sort(category_types, "categoryfreqs.txt")
 
-# category_nums = {}
-# for category in category_types:
-#     print(category)
-#     only_this_cat = df_subset(df, ["DESCRIPTION"], category, True, True)
-#     print(only_this_cat)
-#     num = only_this_cat.at[0, "PRODUCT_CODE"]
-#     print(num)
-#     category_nums[category] = num
+category_codes = symptom_prevalence(df, "PRODUCT_CODE", False, None)
+
+category_names = list(category_types.keys())
+category_nums = list(category_codes.keys())
+
+category_corr = defaultdict(list)
+for name in category_names:
+    cat_nums = []
+    only_this_cat = df_subset(df, "DESCRIPTION", [name], True, True)
+    for idx in range(len(only_this_cat)):
+        category_name = only_this_cat["PRODUCT_CODE"][idx] 
+        num = only_this_cat["PRODUCT_CODE"][idx]
+        if num not in cat_nums:
+            cat_nums.append(num)
+    category_corr[name] = cat_nums
+
+print(category_corr)
+
+for category in category_names:
+    print(category)
+    filename = category_corr[category][0] + ".txt"
+    data = df_subset(df, "DESCRIPTION", [category], True, True)
+    symptoms_data = symptom_prevalence(data)
+    dict_sort(symptoms_data, filename, header=str(category))
+    
+    # only_this_cat = df_subset(df, ["DESCRIPTION"], category, True, True)
+    # print(only_this_cat)
+    # num = only_this_cat.at[0, "PRODUCT_CODE"]
+    # print(num)
+    # category_nums[category] = num
 
 # print(category_nums)

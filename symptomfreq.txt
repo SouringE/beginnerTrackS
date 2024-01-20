@@ -1,933 +1,4705 @@
-vomiting : 473
-diarrhoea : 447
-nausea : 375
-alopecia : 338
-abdominal pain : 335
-pruritus : 254
-trichorrhexis : 202
-pyrexia : 189
-headache : 184
-hypersensitivity : 172
-fatigue : 165
-rash : 147
-pain : 142
-abdominal pain upper : 136
-dizziness : 133
-malaise : 131
-dyspnoea : 119
-death : 98
-burning sensation : 94
-abdominal distension : 85
-hepatic enzyme increased : 84
-urticaria : 81
-choking : 81
-decreased appetite : 77
-blood pressure increased : 77
-asthenia : 77
-chromaturia : 77
-erythema : 76
-abdominal discomfort : 75
-dehydration : 75
-ovarian cancer : 70
-hair texture abnormal : 69
-seizure : 59
-chest pain : 58
-jaundice : 58
-foreign body in throat : 55
-lethargy : 55
-anxiety : 54
-chills : 54
-swelling : 53
-insomnia : 52
-food poisoning : 51
-hair injury : 50
-hallucination : 50
-loss of consciousness : 49
-blister : 49
-anaphylactic reaction : 49
-feeling abnormal : 48
-paraesthesia : 43
-hyperhidrosis : 43
-ovarian cancer stage i : 43
-dyspepsia : 41
-muscle spasms : 40
-constipation : 39
-heart rate increased : 37
-swelling face : 36
-palpitations : 36
-lip swelling : 36
-flatulence : 35
-skin irritation : 32
-nephrolithiasis : 31
-myocardial infarction : 31
-tremor : 30
-skin ulcer : 30
-chemical burn : 30
-back pain : 29
-syncope : 28
-throat irritation : 28
-swollen tongue : 28
-cough : 28
-depression : 27
-dysphagia : 26
-dandruff : 25
-skin exfoliation : 24
-neuropathy peripheral : 22
-hypoaesthesia : 22
-dependence : 22
-weight decreased : 22
-myalgia : 22
-oropharyngeal pain : 21
-pharyngeal swelling : 21
-arthralgia : 21
-retching : 21
-atrial fibrillation : 21
-ovarian cancer stage iii : 21
-kidney infection : 20
-migraine : 20
-hepatic failure : 20
-dry skin : 20
-overdose : 20
-haematochezia : 20
-gastrointestinal disorder : 20
-skin burning sensation : 19
-hypertension : 19
-vision blurred : 19
-infection : 19
+diarrhoea : 19465
+vomiting : 16580
+nausea : 14253
+abdominal pain : 10594
+malaise : 8012
+headache : 6807
+abdominal pain upper : 6442
+choking : 6335
+hypersensitivity : 6077
+dyspnoea : 6007
+pruritus : 5775
+dizziness : 5622
+alopecia : 5525
+pain : 4527
+rash : 4293
+fatigue : 3872
+burning sensation : 3622
+urticaria : 3045
+dysphagia : 2903
+asthenia : 2847
+blood pressure increased : 2739
+pyrexia : 2589
+erythema : 2511
+heart rate increased : 2260
+chest pain : 2257
+swelling : 2190
+dehydration : 2165
+abdominal discomfort : 2102
+abdominal distension : 1942
+dyspepsia : 1870
+palpitations : 1856
+chills : 1780
+anxiety : 1767
+dysgeusia : 1743
+body temperature increased : 1668
+paraesthesia : 1649
+hyperhidrosis : 1624
+feeling of body temperature change : 1623
+death : 1612
+loss of consciousness : 1578
+foreign body : 1547
+constipation : 1518
+throat irritation : 1506
+trichorrhexis : 1485
+decreased appetite : 1450
+flatulence : 1449
+cough : 1408
+tremor : 1371
+muscle spasms : 1363
+insomnia : 1342
+haematochezia : 1301
+food poisoning : 1287
+convulsion : 1287
+hypoaesthesia : 1260
+hair texture abnormal : 1185
+weight decreased : 1184
+foreign body trauma : 1181
+feeling abnormal : 1166
+gastrointestinal disorder : 1164
+hepatic enzyme increased : 1137
+haemorrhage : 1124
+lethargy : 1085
+swelling face : 1062
+skin irritation : 1060
+jaundice : 1049
+cerebrovascular accident : 1045
+hypertension : 1034
+retching : 1001
+syncope : 992
+back pain : 966
+throat tightness : 956
+myocardial infarction : 941
+chest discomfort : 940
+vision blurred : 938
+blister : 933
+arthralgia : 880
+chromaturia : 869
+myalgia : 859
+pharyngeal oedema : 847
+oropharyngeal pain : 839
+eye swelling : 836
+anaphylactic reaction : 811
+alanine aminotransferase increased : 808
+liver function test abnormal : 798
+aspartate aminotransferase increased : 792
+flushing : 771
+coeliac disease : 768
+lip swelling : 758
+blood urine present : 748
+nephrolithiasis : 732
+feeling hot : 719
+dry skin : 704
+swollen tongue : 694
+confusional state : 686
+migraine : 684
+blood glucose increased : 679
+skin exfoliation : 672
+atrial fibrillation : 664
+skin discolouration : 657
+blood bilirubin increased : 624
+hospitalisation : 599
+renal failure : 598
+depression : 591
+pain in extremity : 587
+fall : 579
+local swelling : 566
+discomfort : 563
+eye irritation : 558
+faeces discoloured : 556
+heart rate irregular : 541
+gastrooesophageal reflux disease : 534
+salmonellosis : 532
+tachycardia : 527
+liver injury : 523
+gait disturbance : 514
+tenderness : 503
+urinary tract infection : 499
+laceration : 497
+influenza like illness : 494
+skin ulcer : 493
+tooth injury : 493
+gastric disorder : 485
+renal disorder : 485
+hallucination : 484
+nervousness : 484
+emotional distress : 483
+visual impairment : 473
+somnolence : 473
+chemical injury : 464
+pharyngitis : 462
+blood pressure decreased : 459
+rectal haemorrhage : 454
+infection : 453
+oral discomfort : 440
+acne : 435
+gastroenteritis vibrio : 432
+hypotension : 431
+weight increased : 426
+food allergy : 423
+diverticulitis : 416
+pneumonia : 410
+blood potassium decreased : 396
+condition aggravated : 395
+cold sweat : 387
+thrombosis : 384
+cardiac disorder : 383
+irritability : 382
+gastroenteritis salmonella : 380
+dandruff : 379
+injury : 377
+skin burning sensation : 371
+hypotrichosis : 371
+panic attack : 364
+hepatitis : 363
+dry mouth : 361
+inflammation : 359
+anaphylactic shock : 358
+wheezing : 357
+rash papular : 354
+muscular weakness : 352
+asthma : 351
+rash erythematous : 351
+ocular hyperaemia : 345
+dependence : 344
+blood alkaline phosphatase increased : 343
+pancreatitis : 343
+balance disorder : 338
+speech disorder : 337
+oropharyngeal swelling : 336
+gastritis : 335
+rhabdomyolysis : 328
+epistaxis : 326
+diabetes mellitus : 325
+anaemia : 325
+crying : 321
+gastrointestinal pain : 315
+memory impairment : 314
+heart rate abnormal : 314
+amnesia : 312
+vertigo : 312
+fear : 311
+white blood cell count increased : 306
+stomach discomfort : 303
+physical examination : 303
+eructation : 301
+dysphonia : 294
+arrhythmia : 290
+scar : 289
+scab : 288
+lacrimation increased : 286
+blood creatinine increased : 284
+blood pressure fluctuation : 283
+haematemesis : 282
+skin disorder : 281
+disorientation : 280
+intestinal obstruction : 280
+bacterial infection : 277
+contusion : 276
+hot flush : 276
+glossodynia : 275
+dysuria : 271
+abasia : 269
+abortion spontaneous : 267
+hypoaesthesia oral : 266
+pallor : 265
+poisoning : 265
+diarrhoea haemorrhagic : 265
+feeling jittery : 264
+suicidal ideation : 260
+overdose : 260
+hepatic steatosis : 258
+feeling cold : 257
+renal pain : 256
+appetite disorder : 256
+activities of daily living impaired : 256
+hepatic failure : 255
+urinary retention : 248
+pollakiuria : 244
+neoplasm malignant : 244
+cholelithiasis : 243
+blood cholesterol increased : 243
+rash generalised : 243
+drug dependence : 241
+macular degeneration : 240
+dysarthria : 240
+emergency care examination : 240
+paraesthesia oral : 239
+blood glucose decreased : 238
+sleep disorder : 238
+blindness : 237
+international normalised ratio increased : 237
+renal failure acute : 237
+breast cancer : 236
+agitation : 235
+stress : 233
+rhinorrhoea : 232
+rash macular : 232
+rash pruritic : 231
+pain of skin : 229
+colitis : 227
+gallbladder disorder : 226
+eye pruritus : 224
+chapped lips : 223
+lymphadenopathy : 222
+oedema peripheral : 219
+neuropathy peripheral : 218
+caustic injury : 218
+tooth disorder : 216
+dermatitis : 213
+wound : 213
+nasal congestion : 212
+haemoglobin decreased : 212
+heart rate decreased : 211
+cardiac arrest : 210
+sepsis : 208
+tooth fracture : 208
+musculoskeletal stiffness : 207
+respiratory arrest : 207
+computerised tomogram abnormal : 207
+localised oedema : 204
+extrasystoles : 203
+oedema : 201
+listeriosis : 201
+tinnitus : 200
+liver disorder : 194
+presyncope : 194
+choking sensation : 192
+renal impairment : 190
+gastroenteritis viral : 187
+visual acuity reduced : 186
+adverse reaction : 185
+toxicity to various agents : 185
+hepatomegaly : 185
+gastrointestinal haemorrhage : 184
+fluid retention : 183
+transient ischaemic attack : 183
+mouth injury : 182
+blood calcium increased : 181
+dermatitis contact : 181
+blood creatine phosphokinase increased : 180
+kidney infection : 178
+eczema : 177
+pruritus generalised : 177
+neck pain : 176
+anorexia : 176
+thirst : 175
+face oedema : 175
+aggression : 174
+paralysis : 174
+anger : 172
+blood sodium decreased : 171
+gastroenteritis : 171
+mood altered : 171
+drug interaction : 169
+bone pain : 168
+abnormal behaviour : 167
+toothache : 166
+eye pain : 166
+adverse event : 165
+gastric ulcer : 164
+cyanosis : 162
+sneezing : 160
+skin reaction : 160
+ovarian cancer : 160
+lip dry : 159
+cataract : 158
+mood swings : 157
+irritable bowel syndrome : 157
+hepatic function abnormal : 156
+ulcer : 154
+frequent bowel movements : 154
+stomatitis : 154
+shock : 153
+nervous system disorder : 153
+blood test abnormal : 152
+disturbance in attention : 151
+cellulitis : 150
+cardiac failure congestive : 150
+muscle twitching : 149
+yellow skin : 149
+hypokalaemia : 149
+joint swelling : 149
+pulmonary embolism : 148
+haemoptysis : 147
+hepatocellular injury : 145
+nasopharyngitis : 145
+pharyngeal injury : 144
+respiratory disorder : 144
+respiratory distress : 143
+psychotic disorder : 142
+vaginal haemorrhage : 141
+musculoskeletal pain : 141
+angina pectoris : 140
+cardiac fibrillation : 140
+electrocardiogram abnormal : 139
+cystitis : 138
+fungal infection : 137
+abdominal pain lower : 135
+blood disorder : 135
+psychomotor hyperactivity : 135
+depressed mood : 134
+paranoia : 133
+aphasia : 133
+drug-induced liver injury : 132
+lipase increased : 132
+escherichia infection : 132
+oesophageal injury : 130
+viral infection : 130
+blood urea increased : 129
+hair disorder : 128
+circulatory collapse : 127
+hypervitaminosis : 127
+sinusitis : 126
+vomiting projectile : 126
+obstructive airways disorder : 125
+night sweats : 125
+hair growth abnormal : 124
+unresponsive to stimuli : 123
+impaired work ability : 122
+haematuria : 121
+secretion discharge : 121
+drug screen positive : 120
+metal poisoning : 119
+head injury : 119
+deafness : 117
+platelet count decreased : 117
+bronchitis : 117
+prostate cancer : 117
+blood potassium increased : 116
+staphylococcal infection : 116
+gastrointestinal inflammation : 116
+oedema mouth : 116
+nerve injury : 114
+withdrawal syndrome : 113
+mental disorder : 113
+respiratory tract congestion : 113
+cardiac failure : 112
+photophobia : 112
+haemorrhoids : 111
+thermal burn : 110
+hepatitis acute : 110
+sensation of foreign body : 109
+aphagia : 109
+faeces pale : 109
+hypoglycaemia : 108
+vitamin b6 increased : 108
+skin lesion : 108
+erectile dysfunction : 108
+musculoskeletal disorder : 108
+chemical burn of skin : 108
+menstruation irregular : 107
+hepatic pain : 106
+cholestasis : 106
+mental impairment : 105
+eye haemorrhage : 105
+angioedema : 103
+hernia : 103
+hormone level abnormal : 103
+nail discolouration : 101
+arthritis : 101
+thyroid disorder : 100
+urine analysis abnormal : 100
+transaminases increased : 99
+oral pain : 98
+euphoric mood : 98
+pancreatitis acute : 98
+blood iron decreased : 98
+abnormal faeces : 98
+regurgitation : 98
+mental status changes : 97
+restlessness : 97
+dry eye : 96
+age-related macular degeneration : 96
+deep vein thrombosis : 96
+cheilitis : 96
+cardiac flutter : 95
+pulmonary congestion : 95
+skin infection : 93
+wound secretion : 93
+menorrhagia : 92
+coma : 91
+nail injury : 91
+bacterial test positive : 91
+grand mal convulsion : 91
+allergy to chemicals : 91
+dysstasia : 89
+blindness unilateral : 88
+colitis ulcerative : 88
+acute hepatic failure : 88
+skin injury : 88
+eye disorder : 87
+gastrointestinal infection : 87
+pain in jaw : 86
+seizure : 85
+diplopia : 85
+sinus disorder : 84
+influenza : 84
+movement disorder : 83
+hyponatraemia : 83
+renal failure chronic : 83
+oesophagitis : 83
+red blood cell count decreased : 82
+hyperventilation : 81
+aphonia : 81
+bowel movement irregularity : 81
+prostatomegaly : 81
+oesophageal pain : 81
+excoriation : 81
+colon injury : 81
+urinary incontinence : 80
+menstrual disorder : 80
+thyroid function test abnormal : 80
+defaecation urgency : 80
+psoriasis : 80
+cognitive disorder : 79
+mydriasis : 78
+delirium : 78
+faecal incontinence : 78
+drug ineffective : 77
+gastric ulcer haemorrhage : 77
+foreign body in throat : 76
+glaucoma : 76
+salivary hypersecretion : 76
+arteriosclerosis : 76
+blood lead increased : 75
+lip blister : 75
+prostatic specific antigen increased : 75
+skin sensitisation : 75
+blood glucose abnormal : 75
+ear pain : 74
+eye infection : 74
+ventricular extrasystoles : 74
+sinus congestion : 74
+delusion : 73
+respiratory rate increased : 73
+bedridden : 73
+post-traumatic stress disorder : 73
+abnormal loss of weight : 73
+gingival bleeding : 73
+diverticulum : 73
+norovirus test positive : 73
+lung disorder : 73
+neuralgia : 72
+cerebral haemorrhage : 72
+tongue discolouration : 72
+ear infection : 72
+body height decreased : 72
+furuncle : 71
+hair colour changes : 71
+bradycardia : 71
+atrioventricular block : 71
+blood arsenic increased : 71
+onychomycosis : 71
+thinking abnormal : 70
+acne cystic : 70
+herpes zoster : 70
+eyelid oedema : 70
+onycholysis : 70
+gastric haemorrhage : 70
+change of bowel habit : 70
+botulism : 69
+seborrhoea : 69
+energy increased : 69
+autoimmune hepatitis : 69
+apparent death : 69
+dyspnoea exertional : 69
+heart valve incompetence : 69
+cardio-respiratory distress : 69
+visual disturbance : 69
+mania : 68
+odynophagia : 68
+mouth haemorrhage : 68
+cholecystitis : 68
+vitamin b12 increased : 68
+international normalised ratio decreased : 68
+aspiration : 67
+hyperglycaemia : 67
+hiatus hernia : 67
+blood magnesium decreased : 67
+breast mass : 67
+ascites : 67
+increased upper airway secretion : 67
+hepatitis a : 66
+pulmonary oedema : 66
+gingival pain : 66
+lip exfoliation : 66
+blood pressure abnormal : 66
+hypercalcaemia : 66
+parosmia : 66
+osteoporosis : 66
+haematocrit decreased : 66
+urogenital disorder : 66
+dry throat : 65
+hepatotoxicity : 65
+ocular icterus : 65
+proteinuria : 65
+hepatic necrosis : 65
+drug withdrawal syndrome : 64
+nasal discomfort : 64
+cardiovascular disorder : 64
+muscle tightness : 64
+osteoarthritis : 64
+onychoclasis : 63
+screaming : 63
+ageusia : 63
+gout : 63
+colon cancer : 63
+laboratory test abnormal : 63
+dermatitis allergic : 62
+intraocular pressure increased : 62
+musculoskeletal chest pain : 62
+oral pruritus : 62
+hyperaesthesia : 62
+head discomfort : 61
+cyst : 61
+necrotising colitis : 61
+pancreatic disorder : 61
+adverse drug reaction : 61
+hypothyroidism : 61
+blood calcium decreased : 61
+generalised erythema : 61
+oral dysaesthesia : 61
+supraventricular tachycardia : 60
+obesity : 60
+blood iron increased : 60
+general physical health deterioration : 60
+flank pain : 60
+rigors : 60
+appendicitis : 59
+dyskinesia : 59
+glycosylated haemoglobin increased : 59
+blood pressure systolic increased : 59
+gastrointestinal sounds abnormal : 59
+depressed level of consciousness : 59
+nerve root lesion : 59
+hepatic cirrhosis : 58
+skin tightness : 58
+biopsy liver abnormal : 58
+blood triglycerides increased : 58
+bladder cancer : 58
+cardiomegaly : 57
+sensory loss : 57
+mucous stools : 57
+gastrointestinal tract irritation : 57
+hypophosphataemia : 57
+drug toxicity : 57
+carcinoid tumour : 57
+productive cough : 56
+immune system disorder : 56
+nightmare : 56
+brain oedema : 56
+gastrointestinal obstruction : 56
+oxygen saturation decreased : 56
+glomerular filtration rate decreased : 56
+dermatitis exfoliative : 56
+drug hypersensitivity : 55
+coronary artery disease : 55
+urinary hesitation : 55
+dermatitis diaper : 54
+oropharyngeal discomfort : 54
+metabolic acidosis : 54
+road traffic accident : 54
+serum ferritin increased : 54
+malnutrition : 54
+breast pain : 54
+bladder pain : 53
+clostridium difficile infection : 53
+brain injury : 53
+oesophageal carcinoma : 53
+meningitis : 53
+allergy test positive : 53
+ill-defined disorder : 53
+blood electrolytes decreased : 53
+sensation of pressure : 53
+urine odour abnormal : 52
+skin warm : 52
+lip pain : 52
+somnambulism : 52
+hair injury : 51
+neurological symptom : 51
+coordination abnormal : 51
+peripheral coldness : 51
+bilirubin conjugated increased : 51
+white blood cell count decreased : 51
+hepatocellular damage : 51
+renal injury : 50
+faecaloma : 50
+incontinence : 50
+joint stiffness : 50
+gynaecomastia : 50
+foaming at mouth : 50
+scratch : 50
+blood albumin decreased : 50
+hyperkalaemia : 50
+nuclear magnetic resonance imaging abnormal : 50
+hyperthyroidism : 49
+disability : 49
+chronic obstructive pulmonary disease : 49
+arthropathy : 49
+troponin increased : 48
+septic shock : 48
+blood thyroid stimulating hormone increased : 48
+respiratory failure : 48
+renal function test abnormal : 48
+sunburn : 48
+helicobacter infection : 47
+urine output decreased : 47
+sensory disturbance : 47
+hypersomnia : 47
+pancreatic carcinoma : 47
+completed suicide : 46
+poor quality sleep : 46
+bladder disorder : 46
+salivary gland disorder : 46
+hepatic neoplasm malignant : 46
+muscle fatigue : 45
+tongue disorder : 45
+madarosis : 45
+eye discharge : 45
+hip fracture : 45
+ovarian cancer stage i : 45
+epigastric discomfort : 45
+sluggishness : 45
+coagulopathy : 45
+abscess : 45
+metastasis : 45
+multiple injuries : 45
+faeces hard : 44
+restless legs syndrome : 44
+leukaemia : 44
+dementia : 44
+nail disorder : 44
+muscle strain : 44
+vitamin d decreased : 44
+pulmonary thrombosis : 44
+ear discomfort : 43
+incoherent : 43
+emotional disorder : 43
+sensation of heaviness : 43
+autoimmune disorder : 43
+eosinophil count increased : 43
+metabolic disorder : 43
+surgery : 43
+hypoaesthesia facial : 43
+pleural effusion : 42
+chemical burn : 42
+vascular injury : 42
+adrenal disorder : 42
+failure to thrive : 42
+parkinson's disease : 42
+lung neoplasm malignant : 42
+gastric infection : 42
+blindness transient : 42
+seborrhoeic dermatitis : 41
+motor dysfunction : 41
+skin wrinkling : 41
+body temperature fluctuation : 41
+hypoacusis : 41
+multiple sclerosis : 41
+poor peripheral circulation : 41
+therapeutic response unexpected : 41
+facial palsy : 41
+sinus headache : 40
+hunger : 40
+rheumatoid arthritis : 40
+gamma-glutamyltransferase increased : 40
+anosmia : 40
+thrombocytopenia : 40
+walking aid user : 40
+dermatologic examination : 40
+accidental overdose : 39
+skin odour abnormal : 39
+personality change : 39
+visual field defect : 39
+ventricular tachycardia : 39
+upper respiratory tract infection : 39
+aneurysm : 39
+removal of foreign body from throat : 39
+ammonia increased : 39
+blood caffeine increased : 39
+electrolyte imbalance : 39
+groin pain : 39
+drooling : 38
+panic reaction : 38
+lymphoma : 38
+oesophageal disorder : 38
+micturition urgency : 38
+eye inflammation : 38
+tongue injury : 38
+migraine without aura : 38
+hiccups : 38
+urinary tract disorder : 38
+body temperature decreased : 38
+blood pressure : 38
+ischaemic stroke : 38
+glossitis : 38
+pharyngeal haemorrhage : 38
+accidental death : 38
+renal cancer : 37
+polyp : 37
+foreign body aspiration : 37
+ketoacidosis : 37
+blood phosphorus decreased : 37
+mobility decreased : 37
+auditory : 37
+localised infection : 37
+heart injury : 37
+colonoscopy abnormal : 37
+prostatic disorder : 37
+haemorrhoidal haemorrhage : 36
+abdominal tenderness : 36
+gingival injury : 36
+mucosal inflammation : 36
+bronchospasm : 36
+mass : 36
+premature baby : 36
+ventricular fibrillation : 36
+renal cyst : 36
+wound drainage : 36
+neuroma : 36
+orthostatic hypotension : 35
+eye injury : 35
+fibromyalgia : 35
+visual : 35
+polyuria : 35
+photopsia : 35
+aortic aneurysm : 35
+intestinal perforation : 35
+ileus : 35
+tooth discolouration : 35
+hepatic cancer : 35
+splenomegaly : 35
+cholestatic liver injury : 35
+unevaluable event : 35
+cardiomyopathy : 34
+lip haemorrhage : 34
+hypoxia : 34
+vitreous floaters : 34
+conjunctivitis : 34
+skin swelling : 34
+sinus tachycardia : 34
+hyperchlorhydria : 34
+lymphatic disorder : 34
+incorrect dose administered : 34
+atrial flutter : 34
+eyelid disorder : 34
+colitis ischaemic : 34
+pharyngolaryngeal pain : 34
+blepharospasm : 33
+pneumonia aspiration : 33
+serotonin syndrome : 33
+polydipsia : 33
+feeling drunk : 33
+gastroenteritis escherichia coli : 33
+malabsorption : 33
+bacteraemia : 33
+blood testosterone decreased : 33
+melaena : 33
+feeding disorder neonatal : 33
+ultrasound scan abnormal : 33
+pleuritic pain : 33
+upper limb fracture : 33
+protein total decreased : 33
+ultrasound kidney abnormal : 33
+infarction : 33
+hyperacusis : 32
+cronobacter infection : 32
+vitamin d increased : 32
+blood creatine increased : 32
+cholecystectomy : 32
+organ failure : 32
+haemorrhagic stroke : 32
+joint injury : 32
+biopsy liver : 32
+concussion : 32
+hyperbilirubinaemia : 32
+suicide attempt : 32
+clostridial infection : 32
+neutrophil count increased : 32
+anaphylactoid reaction : 32
+enterobacter infection : 32
+tongue oedema : 32
+blood heavy metal increased : 32
+hysterectomy : 32
+ataxia : 31
+proctalgia : 31
+respiration abnormal : 31
+rib fracture : 31
+cardiac enzymes increased : 31
+hemiparesis : 31
+endoscopy abnormal : 31
+dermatitis bullous : 31
+acute prerenal failure : 31
+left atrial dilatation : 31
+pharyngeal swelling : 30
+skin cancer : 30
+type 2 diabetes mellitus : 30
+hordeolum : 30
+fungaemia : 30
+hypertensive crisis : 30
+altered state of consciousness : 30
+formication : 30
+chemical poisoning : 30
+spinal fracture : 30
+platelet count increased : 30
+corona virus infection : 30
+pulse absent : 30
+blood selenium increased : 30
+blood lactic acid increased : 30
+breast tenderness : 30
+drug intolerance : 30
+drug exposure during pregnancy : 30
+medication error : 30
+accidental drug intake by child : 30
+clostridium difficile colitis : 29
+increased appetite : 29
+breath odour : 29
+feeding disorder : 29
+oral allergy syndrome : 29
+coronary artery occlusion : 29
+oral mucosal blistering : 29
+bone disorder : 29
+tunnel vision : 29
+psychiatric symptom : 29
+systemic lupus erythematosus : 29
+viral test positive : 29
+metastatic lymphoma : 29
+gingival swelling : 29
+micturition disorder : 29
+low density lipoprotein increased : 29
+pre-eclampsia : 29
+fracture : 29
+mastication disorder : 29
+computerised tomogram abdomen abnormal : 29
+po2 decreased : 29
+blood glucose fluctuation : 28
+chest x-ray abnormal : 28
+deformity : 28
+cholera : 28
+encephalopathy : 28
+intestinal haemorrhage : 28
+vasculitis : 28
+milk allergy : 28
+respiratory tract infection : 28
+tongue haemorrhage : 28
+ultrasound liver abnormal : 28
+piloerection : 28
+reaction to drug excipients : 28
+lip discolouration : 28
+multi-organ failure : 28
+haemorrhage intracranial : 28
+cardiac murmur : 28
+haematospermia : 28
+vitamin d deficiency : 28
+laryngitis : 28
+thyroid neoplasm : 28
+sleep apnoea syndrome : 28
+impaired driving ability : 27
+priapism : 27
+limb discomfort : 27
+hypopnoea : 27
+wheelchair user : 27
+endometrial cancer : 27
+hepatic enzyme abnormal : 27
+gallbladder pain : 27
+gastric cancer : 27
+infrequent bowel movements : 27
+musculoskeletal discomfort : 27
+suppressed lactation : 27
+hostility : 27
+crohn's disease : 27
+blood electrolytes abnormal : 27
+cyclosporidium infection : 27
+pharyngitis streptococcal : 27
+painful defaecation : 27
+abnormal dreams : 27
+muscle injury : 27
+pyelonephritis : 27
+generalised oedema : 27
+drug administration error : 27
+urine protein : 27
+quantitative : 27
+skin laceration : 26
+pigmentation disorder : 26
+ovarian cancer stage iii : 26
+pharyngeal disorder : 26
+prothrombin time prolonged : 26
+eyelid ptosis : 26
+limb injury : 26
+pancreatic enzymes increased : 26
+antinuclear antibody positive : 26
+eyelids pruritus : 26
+epilepsy : 26
+c-reactive protein increased : 26
+multiple allergies : 26
+urine output increased : 26
+hepatitis cholestatic : 26
+x-ray abnormal : 26
+tongue blistering : 26
+tension : 26
+mycobacterium chelonae infection : 26
+leukocytosis : 26
+hyperlipidaemia : 26
+laryngospasm : 26
+escherichia bacteraemia : 26
+haemoglobin increased : 26
+underdose : 26
+loose stools : 26
+skin desquamation : 26
+muscle atrophy : 25
+loss of libido : 25
+food intolerance : 25
+skin fissures : 25
+plasma cell myeloma : 25
+muscle disorder : 25
+ovarian cyst : 25
+oesophageal rupture : 25
+sinus bradycardia : 25
+aphthous stomatitis : 25
+hypokinesia : 25
+anal haemorrhage : 25
+blood mercury abnormal : 25
+osteopenia : 25
+oral disorder : 24
+uterine leiomyoma : 24
+apathy : 24
+oesophageal stenosis : 24
+drug abuse : 24
+pharyngeal erythema : 24
+throat cancer : 24
+breath sounds abnormal : 24
+blood chloride decreased : 24
+facial pain : 24
+blood thyroid stimulating hormone decreased : 24
+acute myocardial infarction : 24
+pelvic pain : 24
+biopsy skin abnormal : 24
+rectal fissure : 24
+back injury : 24
+urine flow decreased : 24
+application site pain : 23
+adrenal insufficiency : 23
+sciatica : 23
+illness : 23
+burns second degree : 23
+asphyxia : 23
+joint range of motion decreased : 23
+urinary tract pain : 23
+decreased activity : 23
+quality of life decreased : 23
+haematoma : 23
+viith nerve paralysis : 23
+corneal abrasion : 23
+hepatitis c : 23
+toxicologic test abnormal : 23
+granuloma : 23
+echocardiogram abnormal : 23
+dermal cyst : 23
+dysgraphia : 23
+impaired gastric emptying : 22
+migraine with aura : 22
+pupil fixed : 22
+erythema of eyelid : 22
+anxiety disorder : 22
+developmental delay : 22
+disease recurrence : 22
+gallbladder operation : 22
+thyroid cancer : 22
+rash pustular : 22
+aura : 22
+nodule : 22
+transient global amnesia : 22
+goitre : 22
+blood blister : 22
+dermatitis herpetiformis : 22
+salmonella test positive : 22
+lung infection : 22
+haemorrhage urinary tract : 22
+hypervitaminosis d : 22
+pneumonitis : 22
+wrist fracture : 22
+hypercholesterolaemia : 22
+human chorionic gonadotropin increased : 22
+myodesopsia : 22
+gastrointestinal discomfort : 22
+appendicectomy : 21
+acidosis : 21
+urine ketone body present : 21
+disease progression : 21
+bipolar disorder : 21
+myelodysplastic syndrome : 21
+barrett's oesophagus : 21
+respiratory tract irritation : 21
+dementia alzheimer's type : 21
+upper airway obstruction : 21
+oesophageal obstruction : 21
+weight fluctuation : 21
+joint dislocation : 21
+tonsillitis : 21
+impaired healing : 21
+respiratory tract oedema : 21
+fibrosis : 21
+general symptom : 21
+genital haemorrhage : 21
+necrosis : 21
+abdominal symptom : 21
+bruxism : 21
+petechiae : 21
+liver transplant : 21
+hyperthermia : 20
+foot fracture : 20
+anorectal discomfort : 20
+eating disorder : 20
+eye oedema : 20
+small intestinal obstruction : 20
+immobile : 20
+hypotonia : 20
+eyelid irritation : 20
+bile duct obstruction : 20
+transfusion : 20
+pericardial effusion : 20
+arterial occlusive disease : 20
+testicular pain : 20
+oesophageal ulcer : 20
+calcinosis : 20
+purulent discharge : 20
+skin atrophy : 20
+blood urine : 20
+hypovitaminosis : 20
+protein urine present : 20
+eating disorder symptom : 20
+blood cholesterol decreased : 20
+arteritis : 20
+hepatitis b dna increased : 20
+expired drug administered : 20
+haemorrhagic diathesis : 20
+blood magnesium increased : 19
+blepharitis : 19
+uterine cancer : 19
+tic : 19
+skin haemorrhage : 19
+eyelid rash : 19
 fallopian tube cancer : 19
-throat tightness : 18
-paraesthesia oral : 18
-diverticulitis : 18
-suicidal ideation : 17
-disorientation : 17
-withdrawal syndrome : 17
-oral discomfort : 17
-salmonellosis : 16
-gait disturbance : 16
-eye irritation : 16
-blood glucose increased : 16
-cerebrovascular accident : 16
-feeling hot : 16
-haemorrhage : 16
-dysgeusia : 16
-paranoia : 15
-heart rate irregular : 15
-cyanosis : 15
-macular degeneration : 15
-condition aggravated : 15
-cold sweat : 15
-gastrointestinal pain : 15
-chapped lips : 15
-alanine aminotransferase increased : 15
-gastritis : 15
-adverse event : 15
-eye swelling : 14
-foreign body : 14
-irritability : 14
-blood cholesterol increased : 14
-panic attack : 13
-blood bilirubin increased : 13
-weight increased : 13
-aspartate aminotransferase increased : 13
-unresponsive to stimuli : 13
-flushing : 13
-fluid retention : 13
-pancreatitis : 13
-hepatitis : 13
-speech disorder : 12
-scab : 12
-wheezing : 12
-balance disorder : 12
-blindness unilateral : 12
-pain of skin : 12
-muscular weakness : 12
-gastric disorder : 12
-somnolence : 12
-gluten sensitivity : 12
-adverse reaction : 12
-food allergy : 12
-nervous system disorder : 12
-tinnitus : 11
-discomfort : 11
-dry mouth : 11
-aggression : 11
-blood pressure decreased : 11
-botulism : 11
-faeces discoloured : 11
-toothache : 11
-gastric ulcer : 11
-rash erythematous : 11
-illness : 11
-lymphoma : 11
+libido decreased : 19
+disseminated intravascular coagulation : 19
+intentional overdose : 19
+hemiplegia : 19
+cluster headache : 19
+pharyngeal hypoaesthesia : 19
+premature labour : 19
+medication residue present : 19
+folliculitis : 19
+smooth muscle antibody positive : 19
+lip injury : 19
+blood count abnormal : 19
+blood sodium increased : 19
+catheterisation cardiac : 19
+blood testosterone increased : 18
+acute kidney injury : 18
+postmenopausal haemorrhage : 18
+maternal exposure during pregnancy : 18
+urinary tract obstruction : 18
+dark circles under eyes : 18
+lactose intolerance : 18
+brain neoplasm : 18
+partial seizures : 18
+pneumothorax : 18
+tachyphrenia : 18
+ear swelling : 18
+urine abnormality : 18
+retinal haemorrhage : 18
+asthenopia : 18
+panic disorder : 18
+blood uric acid increased : 18
+abdominal rigidity : 18
+rash maculo-papular : 18
+supraventricular extrasystoles : 18
+mouth ulceration : 18
+blood cholesterol abnormal : 18
+accident : 18
+large intestinal haemorrhage : 18
+self esteem decreased : 18
+cardiac discomfort : 18
+eye burns : 18
+pulmonary hypertension : 18
+blood urea decreased : 18
+carotid arteriosclerosis : 18
+troponin i increased : 18
+electrocardiogram qt prolonged : 18
+paraneoplastic syndrome : 18
+photosensitivity reaction : 17
+basedow's disease : 17
+penile haemorrhage : 17
+hypervigilance : 17
+hydronephrosis : 17
+gastric dilatation : 17
+basal cell carcinoma : 17
+breast enlargement : 17
+respiratory rate decreased : 17
+amenorrhoea : 17
+rosacea : 17
+enteritis : 17
+clostridium test positive : 17
+tachypnoea : 17
+appendix disorder : 17
+oesophageal spasm : 17
+cystitis interstitial : 17
+exposure during pregnancy : 17
+lip disorder : 17
+tongue pruritus : 17
+hearing impaired : 17
+ankle fracture : 17
+peripheral vascular disorder : 17
+obstruction : 17
+milk-alkali syndrome : 17
+brain natriuretic peptide increased : 17
+carotid artery occlusion : 17
+altered visual depth perception : 17
+high density lipoprotein decreased : 17
+drug abuser : 17
+oropharyngeal blistering : 17
+duodenitis : 17
+hypoventilation : 17
+adnexa uteri mass : 17
+mucosal dryness : 17
+cholecystitis acute : 16
+ulcer haemorrhage : 16
+sedation : 16
+apnoea : 16
+red blood cell abnormality : 16
+dysmenorrhoea : 16
+dysphemia : 16
+red blood cell count increased : 16
+tooth loss : 16
+cholecystitis infective : 16
+breast cancer female : 16
+loss of control of legs : 16
+lip pruritus : 16
+autoimmune thyroiditis : 16
+increased bronchial secretion : 16
+eosinophilia : 16
+large intestine perforation : 16
+congenital anomaly : 16
+oesophageal irritation : 16
+lower limb fracture : 16
+oral herpes : 16
+stool analysis abnormal : 16
+arteriosclerosis coronary artery : 16
+red blood cell sedimentation rate increased : 16
+hepatic fibrosis : 16
+candidiasis : 16
+obsessive-compulsive disorder : 16
+neutrophil percentage increased : 16
+drug effect prolonged : 16
+thought blocking : 16
+campylobacter intestinal infection : 16
+urine colour abnormal : 16
+muscle contractions involuntary : 15
+lower respiratory tract infection : 15
+self-injurious ideation : 15
+burns third degree : 15
+pancreatic failure : 15
+schizophrenia : 15
+dystonia : 15
+retinal disorder : 15
+arthropod bite : 15
+functional gastrointestinal disorder : 15
+vaginal discharge : 15
+fear of death : 15
+burn oesophageal : 15
+reaction to food additive : 15
+psychomotor seizures : 15
+cardio-respiratory arrest : 15
+tongue coated : 15
+complication of pregnancy : 15
+lactobacillus infection : 15
+purpura : 15
+subdural haematoma : 15
+alveolitis allergic : 15
+gastric lavage : 15
+pulmonary vascular disorder : 15
+atrioventricular block complete : 15
+face injury : 15
+blood amylase increased : 15
+ovarian cancer stage iv : 14
+peritonitis : 14
+drug screen false positive : 14
+rectal discharge : 14
+tonic clonic movements : 14
+laryngeal oedema : 14
+appendicitis perforated : 14
+heat stroke : 14
+heart rate : 14
+exophthalmos : 14
+cardiac stress test abnormal : 14
+blood lactate dehydrogenase increased : 14
+sarcoidosis : 14
+back disorder : 14
+blood culture positive : 14
+endometriosis : 14
+onychalgia : 14
+iron deficiency : 14
+bile duct stone : 14
+colonoscopy : 14
+protein total abnormal : 14
+infantile spasms : 14
+lactic acidosis : 14
+onychomadesis : 14
+sinus arrest : 14
+diplegia : 14
+mitral valve incompetence : 14
+postnasal drip : 14
+pulse pressure decreased : 14
+carotid endarterectomy : 14
+intensive care : 14
+ophthalmological examination : 14
+vulvovaginal pruritus : 13
+acute psychosis : 13
+gluten sensitivity : 13
+seizure like phenomena : 13
+tension headache : 13
+myoclonus : 13
+temperature intolerance : 13
+performance status decreased : 13
+accidental exposure to product : 13
+blood zinc increased : 13
+gingivitis : 13
+ovarian cancer stage ii : 13
+haemolytic anaemia : 13
+vaginal infection : 13
+testicular swelling : 13
+squamous cell carcinoma : 13
+miosis : 13
+blood prolactin increased : 13
+urinary tract infection bacterial : 13
+autism : 13
+interstitial lung disease : 13
+physical disability : 13
+hypomagnesaemia : 13
+underweight : 13
+uterine haemorrhage : 13
+blood pressure diastolic increased : 13
+throat lesion : 13
+hepatitis toxic : 13
+myocarditis : 13
+abdominal mass : 13
+typhoid fever : 13
+haemorrhage subcutaneous : 13
+glioblastoma : 13
+lymphocyte count increased : 13
+blood oestrogen increased : 13
+foreign body in eye : 13
+middle insomnia : 13
+haematocrit increased : 13
+pseudomonas infection : 13
+cardiac valve disease : 13
+protein total increased : 13
+shigella infection : 13
+bone density decreased : 13
+saliva altered : 13
+ear disorder : 13
+caesarean section : 13
+alpha-1 anti-trypsin increased : 13
+wrong technique in drug usage process : 13
+dysplasia : 13
+renal insufficiency : 13
+abdominal abscess : 12
+conjunctival haemorrhage : 12
+herpes virus infection : 12
+respiratory depression : 12
+listless : 12
+full blood count decreased : 12
+aortic valve stenosis : 12
+renal haemorrhage : 12
+nonspecific reaction : 12
+pulmonary mass : 12
+cardiac ablation : 12
+methaemoglobinaemia : 12
+erythema multiforme : 12
+blood folate increased : 12
+glucose tolerance impaired : 12
+trismus : 12
+conversion disorder : 12
+increased tendency to bruise : 12
+wound haemorrhage : 12
+abnormal sensation in eye : 12
+psychosomatic disease : 12
+weight gain poor : 12
+immunodeficiency : 12
+autonomic nervous system imbalance : 12
+rectal cancer : 12
+skin hyperpigmentation : 12
+tongue eruption : 12
+calculus bladder : 12
+catatonia : 12
+aortic occlusion : 12
+therapeutic product ineffective : 12
+dental caries : 12
+vocal cord disorder : 12
+dysentery : 12
+myasthenia gravis : 12
+pancreatic insufficiency : 12
+eosinophilia myalgia syndrome : 12
+candida infection : 12
+tongue ulceration : 12
+femur fracture : 12
+opiates positive : 12
+neck injury : 12
+suffocation feeling : 12
+acute respiratory distress syndrome : 12
+metrorrhagia : 12
+status epilepticus : 12
+tongue biting : 12
+angina unstable : 12
+dialysis : 12
+bile output increased : 12
+blood ph decreased : 12
+auricular swelling : 12
+blood bicarbonate decreased : 12
+antinuclear antibody increased : 12
+blood osmolarity decreased : 12
+colonic polyp : 12
+poor quality drug administered : 12
+syncope vasovagal : 12
+right atrial dilatation : 12
+eye redness : 12
+neurotoxicity : 11
+embolism : 11
+lip and/or oral cavity cancer : 11
+pneumatosis : 11
+gallbladder injury : 11
 tactile : 11
-visual : 11
-oesophageal carcinoma : 11
-confusional state : 10
-disturbance in attention : 10
-dermatitis : 10
-anger : 10
-sepsis : 10
-amnesia : 10
-acute kidney injury : 10
-urinary tract infection : 10
-urinary retention : 10
-lacrimation increased : 9
-ocular hyperaemia : 9
-application site pain : 9
-blood potassium decreased : 9
-hypotension : 9
-cardiac disorder : 9
-anaphylactic shock : 9
-acne : 9
-psychotic disorder : 9
-heart rate decreased : 9
-vertigo : 9
-intestinal obstruction : 9
-epistaxis : 9
-toxicity to various agents : 9
-transient ischaemic attack : 9
-arrhythmia : 9
-abnormal behaviour : 9
-neoplasm malignant : 9
-hospitalisation : 9
-ovarian cancer stage ii : 9
-renal failure : 8
-diabetes mellitus : 8
-nasal congestion : 8
-inflammation : 8
-ocular icterus : 8
-tachycardia : 8
-skin discolouration : 8
-agitation : 8
+nasal oedema : 11
+methylenetetrahydrofolate reductase gene mutation : 11
+sexual dysfunction : 11
+haemochromatosis : 11
+hypophagia : 11
+skin papilloma : 11
+diabetic ketoacidosis : 11
+faeces soft : 11
+pulmonary pain : 11
+foetal exposure during pregnancy : 11
+stevens-johnson syndrome : 11
+osteomyelitis : 11
+blood zinc abnormal : 11
+erection increased : 11
+blood calcium abnormal : 11
+culture stool positive : 11
+gastroenteritis norovirus : 11
+hypomania : 11
+exposure to toxic agent : 11
+hepatic cyst : 11
+vasodilatation : 11
+clumsiness : 11
+hypocalcaemia : 11
+depression suicidal : 11
+device breakage : 11
+anal fissure : 11
+application site burn : 11
+neoplasm : 11
+jaundice cholestatic : 11
+pelvic fracture : 11
+volvulus : 11
+anorectal disorder : 11
+intracranial pressure increased : 11
+spinal disorder : 11
+vulvovaginal discomfort : 11
+iron deficiency anaemia : 11
+helminthic infection : 11
+papilloedema : 11
+emergency care : 11
+neutrophil count decreased : 11
+neutropenia : 11
+eyelid skin dryness : 11
+blister infected : 11
+stillbirth : 11
+pleurisy : 11
+anuria : 11
+polymenorrhoea : 11
+skeletal injury : 11
+body surface area decreased : 11
+blood phosphorus increased : 11
+ultrasound abdomen abnormal : 11
+hypothermia : 11
+breast cancer stage i : 11
+endoscopy gastrointestinal abnormal : 11
+pancreatolithiasis : 11
+lymphocyte percentage decreased : 11
+monocyte percentage increased : 11
+nodal arrhythmia : 11
+benign intracranial hypertension : 11
+transferrin increased : 11
+carbon dioxide decreased : 11
+ventricular hypertrophy : 11
+decreased immune responsiveness : 11
+dysphasia : 11
+low density lipoprotein decreased : 11
+blood test : 11
+encephalitis : 10
+vertigo positional : 10
+sleep terror : 10
+bradyphrenia : 10
+hyperreflexia : 10
+arteriospasm coronary : 10
+hair metal test abnormal : 10
+bloody discharge : 10
+oesophageal haemorrhage : 10
+hyperkeratosis : 10
+enterocolitis : 10
+metastases to liver : 10
+gastrointestinal injury : 10
+intentional drug misuse : 10
+breast swelling : 10
+oesophageal discomfort : 10
+intervertebral disc protrusion : 10
+atelectasis : 10
+sensitivity of teeth : 10
+pulse abnormal : 10
+embolic stroke : 10
+temporomandibular joint syndrome : 10
+non-cardiac chest pain : 10
+amylase increased : 10
+vitamin c decreased : 10
+brain death : 10
+carpal tunnel syndrome : 10
+lymphoedema : 10
+hypertriglyceridaemia : 10
+nephropathy : 10
+calcification metastatic : 10
+ear : 10
+monoplegia : 10
+blood homocysteine increased : 10
+left ventricular dysfunction : 10
+hypernatraemia : 10
+atrophy : 10
+lung infiltration : 10
+eyelid margin crusting : 10
+blood creatinine decreased : 10
+hepatobiliary scan abnormal : 10
+hip arthroplasty : 10
+scoliosis : 10
+urogenital haemorrhage : 10
+blood bicarbonate increased : 10
+tongue neoplasm : 10
+occult blood positive : 10
+cerebral atrophy : 10
+klebsiella infection : 10
+dilatation atrial : 10
+facial spasm : 10
+hepatitis b : 10
+abscess intestinal : 10
+ischaemia : 10
+blood creatinine : 10
+open wound : 10
+ejection fraction decreased : 10
+urine uric acid abnormal : 10
+difficulty in walking : 10
+head titubation : 9
+pulmonary fibrosis : 9
+optic nerve disorder : 9
+affective disorder : 9
+tongue dry : 9
+cronobacter test positive : 9
+infection parasitic : 9
+acute respiratory failure : 9
+fallopian tube cancer stage iii : 9
+hand fracture : 9
+nephritis : 9
+vulvovaginal dryness : 9
+metastases to bone : 9
+painful erection : 9
+tendonitis : 9
+polyneuropathy : 9
+ecchymosis : 9
+peptic ulcer : 9
+vulvovaginal pain : 9
+hepatic infection : 9
+pericarditis : 9
+myocardial ischaemia : 9
+subarachnoid haemorrhage : 9
+feeling of despair : 9
+congenital cystic kidney disease : 9
+blood albumin increased : 9
+pupils unequal : 9
+varicose vein : 9
+cardioversion : 9
+periorbital oedema : 9
+foetal death : 9
+pulmonary arterial hypertension : 9
+fistula : 9
+ear pruritus : 9
+cardiac failure acute : 9
+tourette's disorder : 9
+brain stem haemorrhage : 9
+application site pustules : 9
+hangover : 9
+lactobacillus test positive : 9
+skin hypertrophy : 9
+ventricular arrhythmia : 9
+raynaud's phenomenon : 9
+multiple sclerosis relapse : 9
+rhinitis : 9
+sinus operation : 9
+gastritis erosive : 9
+attention deficit/hyperactivity disorder : 9
+anion gap increased : 9
+nipple pain : 9
+biopsy kidney abnormal : 9
+malignant hypertension : 9
+scrotal swelling : 9
+lung neoplasm : 9
+colitis microscopic : 9
+cervix carcinoma : 9
+congestive cardiomyopathy : 9
+visceral congestion : 9
+hepatosplenomegaly : 9
+cerebellar atrophy : 9
+bursitis : 9
+milia : 9
+renal colic : 9
+multiple fractures : 9
+bed rest : 9
+major depression : 9
+hepatitis a antibody positive : 9
+medication residue : 9
+vascular calcification : 9
+post procedural haemorrhage : 9
+blood parathyroid hormone decreased : 9
+intracranial aneurysm : 9
+rotator cuff syndrome : 9
+bacillus infection : 9
+pancreas infection : 9
+glucose urine present : 9
+ceruloplasmin increased : 9
+prothrombin level increased : 9
+bacteria stool identified : 9
+carotid artery stenosis : 9
+suture insertion : 9
+nuclear magnetic resonance imaging : 9
+blood prolactin abnormal : 9
+gallbladder necrosis : 9
+dyspareunia : 9
+neuropathy : 9
+nose and throat examination : 9
+cushing's syndrome : 8
+dissociation : 8
 breast discomfort : 8
-head discomfort : 8
-optic nerve disorder : 8
-pupil fixed : 8
+toxic encephalopathy : 8
 tongue discomfort : 8
+cushingoid : 8
 hypervitaminosis b : 8
+acute sinusitis : 8
+vulvovaginal burning sensation : 8
+bundle branch block right : 8
+retinal detachment : 8
+emphysema : 8
 malignant peritoneal neoplasm : 8
-fallopian tube cancer stage iii : 8
-ventricular tachycardia : 8
-eczema : 7
-rhinorrhoea : 7
-sneezing : 7
-liver disorder : 7
-pallor : 7
-poisoning : 7
-drug interaction : 7
-renal pain : 7
-chest discomfort : 7
-asthma : 7
-thrombosis : 7
-drug screen positive : 7
-crying : 7
-coeliac disease : 7
-hypervitaminosis : 7
-contusion : 7
-eye pain : 7
-memory impairment : 7
-dysuria : 7
-hair colour changes : 7
-gastrointestinal haemorrhage : 7
-methylenetetrahydrofolate reductase gene mutation : 7
-hyperreflexia : 7
-hypervigilance : 7
-lip dry : 7
-skin lesion : 7
-hemiplegia : 7
-influenza like illness : 6
-peripheral swelling : 6
-stress : 6
-blood urine present : 6
-abdominal pain lower : 6
-skin reaction : 6
-urinary incontinence : 6
-dysarthria : 6
-pulmonary oedema : 6
-thirst : 6
-gastrooesophageal reflux disease : 6
-eye pruritus : 6
-fungal infection : 6
-tooth fracture : 6
-vaginal haemorrhage : 6
-eructation : 6
-renal cancer : 6
-hernia : 6
-polyp : 6
-lip blister : 6
-feeding disorder : 6
-metal poisoning : 6
-endometrial cancer : 6
-visual impairment : 5
-abortion spontaneous : 5
-supraventricular tachycardia : 5
-photophobia : 5
-muscle twitching : 5
-emotional distress : 5
-liver injury : 5
-blindness : 5
-paralysis : 5
-white blood cell count increased : 5
-delusion : 5
-feeling of body temperature change : 5
-completed suicide : 5
-body temperature increased : 5
-haematemesis : 5
-skin laceration : 5
-neuralgia : 5
-sedation : 5
-clostridium difficile infection : 5
-breast cancer : 5
-bacterial infection : 5
-pigmentation disorder : 5
+postural orthostatic tachycardia syndrome : 8
+life expectancy shortened : 8
+motion sickness : 8
+ovarian disorder : 8
+papule : 8
+accidental exposure to product by child : 8
+traumatic liver injury : 8
+craniocerebral injury : 8
+skin discomfort : 8
+retinopathy : 8
+optic nerve injury : 8
+blood ketone body increased : 8
+blood potassium abnormal : 8
+abdominal infection : 8
+psychomotor skills impaired : 8
+renal transplant : 8
+grip strength decreased : 8
+chemical eye injury : 8
+parathyroid disorder : 8
+meniere's disease : 8
+steatorrhoea : 8
+retinal tear : 8
+abdominal hernia obstructive : 8
+gastrointestinal bacterial infection : 8
+genital pain : 8
+metamorphopsia : 8
+penile swelling : 8
+breast discharge : 8
+breast engorgement : 8
+dyshidrotic eczema : 8
+malignant melanoma : 8
+penis disorder : 8
+delusional disorder : 8
+type 1 diabetes mellitus : 8
+tachyarrhythmia : 8
+urine arsenic : 8
+ear haemorrhage : 8
+adenocarcinoma : 8
+trigeminal neuralgia : 8
+chronic lymphocytic leukaemia : 8
+obsessive thoughts : 8
+life support : 8
+gallbladder polyp : 8
+conjunctivitis allergic : 8
+premenstrual syndrome : 8
+vascular headache : 8
+fluid overload : 8
+lyme disease : 8
+prostatic pain : 8
+testicular disorder : 8
+blood cortisol increased : 8
+bladder spasm : 8
+exposure during breast feeding : 8
+traumatic haemorrhage : 8
+vocal cord paralysis : 8
+adhesion : 8
+acquired oesophageal web : 8
+alopecia scarring : 8
+needle track marks : 8
+respiratory acidosis : 8
+terminal state : 8
+skin depigmentation : 8
+sudden death : 8
+uterine disorder : 8
+gastrointestinal oedema : 8
+aspartate aminotransferase decreased : 8
+simple partial seizures : 8
+culture positive : 8
+antimitochondrial antibody positive : 8
+livedo reticularis : 8
+carbon dioxide increased : 8
+mitral valve prolapse : 8
+retinal vascular thrombosis : 8
+hepatitis b dna assay positive : 8
+hepatitis b surface antigen : 8
+monocyte count increased : 8
+glasgow coma scale abnormal : 8
+vaginal pain : 8
+abdominal wall disorder : 8
+fat tissue increased : 8
+off label use : 8
+abdominal neoplasm : 8
+eye rolling : 8
+x-ray : 8
+lupus nephritis : 8
+intubation : 8
+peripheral swelling : 7
+facial paresis : 7
+biliary colic : 7
+necrotising fasciitis : 7
+endocrine disorder : 7
+sjogren's syndrome : 7
+antisocial behaviour : 7
+urethral obstruction : 7
+bladder discomfort : 7
+body temperature : 7
+covid-19 : 7
+diaphragmalgia : 7
+breast cancer metastatic : 7
+tooth infection : 7
+sweat gland disorder : 7
+wound infection : 7
+diffuse alopecia : 7
+cyanopsia : 7
+inguinal hernia : 7
+respiratory tract inflammation : 7
+biliary dilatation : 7
+muscle contracture : 7
+circumoral oedema : 7
+guillain-barre syndrome : 7
+hepatic adenoma : 7
+genital swelling : 7
+benign prostatic hyperplasia : 7
+reflux gastritis : 7
+blood bilirubin : 7
+haemangioma : 7
+hydrocephalus : 7
+urine arsenic increased : 7
+tooth extraction : 7
+inflammatory bowel disease : 7
+haemophilus infection : 7
+bacteriuria : 7
+penile pain : 7
+ejaculation disorder : 7
+excessive eye blinking : 7
+social avoidant behaviour : 7
+biopsy : 7
+adenoma benign : 7
+chromatopsia : 7
+sudden hearing loss : 7
+vulvovaginal mycotic infection : 7
+retinal artery occlusion : 7
+depersonalisation : 7
+prostate infection : 7
+gingival disorder : 7
+vitamin b12 decreased : 7
+ocular discomfort : 7
+white blood cell count abnormal : 7
+epididymitis : 7
+lung carcinoma cell type unspecified stage iv : 7
+dysfunctional uterine bleeding : 7
+tongue neoplasm malignant stage unspecified : 7
+exostosis : 7
+burkholderia cepacia complex infection : 7
+pancreatitis chronic : 7
+yawning : 7
+amphetamines : 7
+device failure : 7
+blood insulin increased : 7
+urine amphetamine positive : 7
+upper gastrointestinal haemorrhage : 7
+intentional self-injury : 7
+ear congestion : 7
+peripheral arterial occlusive disease : 7
+enzyme level increased : 7
+costochondritis : 7
+hypoxic-ischaemic encephalopathy : 7
+cardiac hypertrophy : 7
+carotid artery disease : 7
+left ventricular hypertrophy : 7
+systemic inflammatory response syndrome : 7
+alopecia areata : 7
+thirst decreased : 7
+tri-iodothyronine decreased : 7
+painful respiration : 7
+nuclear magnetic resonance imaging brain abnormal : 7
+reaction to colouring : 7
+gingival erythema : 7
+allergy to metals : 7
+acne pustular : 7
+myositis : 7
+petit mal epilepsy : 7
+cardiopulmonary failure : 7
+incision site erythema : 7
+cachexia : 7
+lymphocyte count decreased : 7
+hyperplasia : 7
+mucous membrane disorder : 7
+gastrointestinal motility disorder : 7
+ocular hypertension : 7
+positron emission tomogram abnormal : 7
+mammogram abnormal : 7
+cartilage injury : 7
+optic neuritis : 7
+blood immunoglobulin e increased : 7
+soft tissue injury : 7
+enzyme abnormality : 7
+bronchoscopy abnormal : 7
+renal tubular necrosis : 7
+early satiety : 7
+calcium ionised increased : 7
+blood immunoglobulin g increased : 7
+urosepsis : 7
+compartment syndrome : 7
+pregnancy : 7
+blood fibrinogen increased : 7
+diastolic dysfunction : 7
+hepatic calcification : 7
+rectal abscess : 7
+hepatitis viral : 7
+uraemia odour : 7
+skin chapped : 7
+pre-existing condition improved : 7
+myoglobin blood increased : 7
+coronary artery bypass : 7
+brain mass : 7
+tricuspid valve incompetence : 7
+iliac artery occlusion : 7
+jaw disorder : 7
+dyslipidaemia : 7
+bursa calcification : 7
+aortic valve sclerosis : 7
+subclavian artery stenosis : 7
+drug misuse : 7
+failure of child resistant mechanism for pharmaceutical product : 7
+investigation abnormal : 7
+methicillin-resistant staphylococcal aureus test positive : 7
+radiotherapy : 7
+thyroxine decreased : 7
+plantar fasciitis : 7
+impaired fasting glucose : 7
+retinal telangiectasia : 7
+ultrasound scan : 7
+malformation biliary : 7
+muscle cramp : 7
+intraventricular haemorrhage : 6
+copper deficiency : 6
+salivary gland calculus : 6
+abnormal weight gain : 6
+eyelid pain : 6
+angiopathy : 6
+non-hodgkin's lymphoma : 6
+skin plaque : 6
+heavy menstrual bleeding : 6
+helicobacter gastritis : 6
+derealisation : 6
+haemolytic uraemic syndrome : 6
+laziness : 6
+eye allergy : 6
+renal mass : 6
+neuromyopathy : 6
+myelopathy : 6
+burning mouth syndrome : 6
+escherichia test positive : 6
+psychogenic seizure : 6
+bacterial food poisoning : 6
+tonsillar hypertrophy : 6
+troponin : 6
+learning disorder : 6
+axillary pain : 6
+nail infection : 6
+foreign body sensation in eyes : 6
+biliary tract disorder : 6
+blood cortisol decreased : 6
+bronchiectasis : 6
+antisocial personality disorder : 6
+adnexa uteri pain : 6
+lupus-like syndrome : 6
+alcohol poisoning : 6
+eye colour change : 6
+meningitis bacterial : 6
+biopsy kidney : 6
+creatine urine increased : 6
+grunting : 6
+campylobacter infection : 6
+blood chloride increased : 6
+adenomyosis : 6
+unspecified type : 6
+maculopathy : 6
+blood copper decreased : 6
+melanosis coli : 6
+psychological trauma : 6
+intestinal resection : 6
+tendon rupture : 6
+initial insomnia : 6
+ovarian cyst ruptured : 6
+epinephrine : 6
+bladder neoplasm : 6
+cerebral vasoconstriction : 6
+pneumatosis intestinalis : 6
+gastrointestinal viral infection : 6
+colonic abscess : 6
+self-induced vomiting : 6
+nail growth abnormal : 6
+mycobacterial infection : 6
+frustration : 6
+high density lipoprotein increased : 6
+vitiligo : 6
+immune thrombocytopenic purpura : 6
+hepatic encephalopathy : 6
+abdominal injury : 6
+bladder prolapse : 6
+foot deformity : 6
+atrial tachycardia : 6
+giardiasis : 6
+mental retardation : 6
+small intestinal bacterial overgrowth : 6
+heat exhaustion : 6
+oral fungal infection : 6
+amyotrophic lateral sclerosis : 6
+pterygium : 6
+cystic fibrosis : 6
+coagulation test abnormal : 6
+ligament sprain : 6
+eye movement disorder : 6
+facial bones fracture : 6
+aspartate aminotransferase abnormal : 6
+rhinitis allergic : 6
+irregular sleep phase : 6
+periorbital contusion : 6
+varices oesophageal : 6
+norepinephrine increased : 6
+lip oedema : 6
+intracardiac thrombus : 6
+csf test abnormal : 6
+diabetes mellitus inadequate control : 6
+thyroxine increased : 6
+overweight : 6
+hepatic congestion : 6
+muscle spasticity : 6
+hyporeflexia : 6
+phlebitis : 6
+gastrointestinal necrosis : 6
+thyroid mass : 6
+suicidal behaviour : 6
+drug eruption : 6
+tooth abscess : 6
+amphetamines positive : 6
+ureteric obstruction : 6
+strabismus : 6
+skull fracture : 6
+application site odour : 6
+chronic hepatitis : 6
+pharyngeal inflammation : 6
+infantile colic : 6
+effusion : 6
+drug level increased : 6
+large intestinal ulcer : 6
+burn of internal organs : 6
+hepatitis b surface antibody positive : 6
+rales : 6
+activated partial thromboplastin time prolonged : 6
+cardiac pacemaker insertion : 6
+gastrointestinal ulcer haemorrhage : 6
+intervertebral disc degeneration : 6
+retinal oedema : 6
+tibia fracture : 6
+hypervitaminosis a : 6
+joint crepitation : 6
+tendon injury : 6
+rectal prolapse : 6
+cardiac monitoring abnormal : 6
+hepatic neoplasm : 6
+respiratory alkalosis : 6
+trisomy 21 : 6
+genital rash : 6
+epinephrine increased : 6
+wound complication : 6
+radial nerve palsy : 6
+electrocardiogram st segment elevation : 6
+porphyrin metabolism disorder : 6
+urinary tract inflammation : 6
+blood viscosity increased : 6
+bile duct stenosis : 6
+palmoplantar keratoderma : 6
+frontal sinus operation : 6
+premature ageing : 6
+gastrointestinal erosion : 6
+blood ethanol increased : 6
+aspartate aminotransferase : 6
+blood bilirubin unconjugated increased : 6
+soft tissue disorder : 6
+agoraphobia : 6
+gallbladder non-functioning : 6
+stupor : 6
+gestational diabetes : 6
+global amnesia : 6
+joint sprain : 6
+small for dates baby : 6
+apoptosis : 6
+gastrointestinal tract mucosal pigmentation : 6
+collapse of lung : 6
+cerebral ischaemia : 6
+illusion : 6
+conjunctivitis infective : 6
+hypertrichosis : 6
+acarodermatitis : 6
+oesophageal varices haemorrhage : 6
+rebound effect : 6
+cardiac operation : 6
+eosinophil count : 6
+oophorectomy : 6
+blood thyroid stimulating hormone normal : 6
+electrocardiogram : 6
+x-ray with contrast upper gastrointestinal tract : 6
+amblyopia : 6
+diabetes mellitus non-insulin-dependent : 6
+angioneurotic oedema : 6
+application site irritation : 5
+reaction to excipient : 5
+intestinal ischaemia : 5
+chronic kidney disease : 5
+yersinia infection : 5
+histamine level increased : 5
+atrioventricular block second degree : 5
+neovascular age-related macular degeneration : 5
+upper-airway cough syndrome : 5
+macular oedema : 5
+libido increased : 5
+attention deficit hyperactivity disorder : 5
 endometrial thickening : 5
-performance status decreased : 5
 lichen planopilaris : 5
-urethral obstruction : 5
-aortic valve stenosis : 5
-hepatitis a : 4
-drug dependence : 4
-bowel movement irregularity : 4
-faecaloma : 4
-faeces hard : 4
-reaction to excipient : 4
-troponin increased : 4
-presyncope : 4
-cushing's syndrome : 4
-skin disorder : 4
-platelet count decreased : 4
-euphoric mood : 4
+peroneal nerve palsy : 5
+chemical burns of eye : 5
+nystagmus : 5
+hepatic mass : 5
+endometrial cancer stage i : 5
+loss of proprioception : 5
+scleroderma : 5
+strongyloidiasis : 5
+gingival recession : 5
+adverse food reaction : 5
+muscle rigidity : 5
+total lung capacity decreased : 5
+intussusception : 5
+oesophagitis chemical : 5
+hypermetabolism : 5
+large intestinal stenosis : 5
+portal hypertension : 5
+magnesium deficiency : 5
+blood chromium increased : 5
+bleeding time prolonged : 5
+blood ketone body : 5
+spinal pain : 5
+lymphadenitis : 5
+acrochordon : 5
+gastrointestinal carcinoma : 5
+abnormal sleep-related event : 5
+gastrointestinal perforation : 5
+burns first degree : 5
+tonsillar disorder : 5
+dental examination : 5
+sudden infant death syndrome : 5
+enlarged uvula : 5
+febrile convulsion : 5
+sensitisation : 5
+seasonal allergy : 5
+application site swelling : 5
+dupuytren's contracture : 5
+inner ear inflammation : 5
+paraplegia : 5
+inner ear disorder : 5
+large intestinal obstruction : 5
+retinal degeneration : 5
+ectopic pregnancy : 5
+cholelithotomy : 5
+uterine contractions during pregnancy : 5
+muscle swelling : 5
+bleeding time abnormal : 5
+peripheral sensory neuropathy : 5
+varicose vein ruptured : 5
+tearfulness : 5
+narcolepsy : 5
+tinea infection : 5
+bipolar i disorder : 5
+application site reaction : 5
+liver transplant rejection : 5
+head and neck cancer : 5
+type i hypersensitivity : 5
+pneumonia viral : 5
+aortic valve disease : 5
+mantle cell lymphoma : 5
+oral infection : 5
+skin test positive : 5
+guttate psoriasis : 5
+hallucinations : 5
+mixed : 5
+macule : 5
+nail psoriasis : 5
+plicated tongue : 5
+exercise tolerance decreased : 5
+menstruation delayed : 5
+rash vesicular : 5
+language disorder : 5
+paresis : 5
+gastrointestinal anastomotic leak : 5
+impulsive behaviour : 5
+prostate cancer metastatic : 5
+blood copper increased : 5
+pinguecula : 5
+sinus arrhythmia : 5
+herbal toxicity : 5
+anticoagulation drug level below therapeutic : 5
+superficial injury of eye : 5
+salivary gland enlargement : 5
+temporal arteritis : 5
+alcoholism : 5
+urethral disorder : 5
+thyroid cyst : 5
+electroencephalogram abnormal : 5
+oxygen consumption decreased : 5
+postictal state : 5
+osteogenesis imperfecta : 5
+salmonella bacteraemia : 5
+food interaction : 5
+immunoglobulins increased : 5
+chest injury : 5
+abscess drainage : 5
+cerebral infarction : 5
+claustrophobia : 5
+blood oestrogen abnormal : 5
+oligomenorrhoea : 5
+haemodynamic instability : 5
+calculus urinary : 5
+blood gases abnormal : 5
+nerve compression : 5
+uterine pain : 5
+intraocular pressure decreased : 5
+metabolic syndrome : 5
+sinus rhythm : 5
+faecal volume increased : 5
+vascular graft : 5
+chondropathy : 5
+staphylococcus test positive : 5
+tubulointerstitial nephritis : 5
+bile output abnormal : 5
+squamous cell carcinoma of the tongue : 5
+bladder irritation : 5
+spinal x-ray abnormal : 5
+intraocular pressure test abnormal : 5
+drug level fluctuating : 5
+low birth weight baby : 5
+foetal exposure timing unspecified : 5
+traumatic intracranial haemorrhage : 5
+enterococcal infection : 5
+spondylitis : 5
+blood cadmium increased : 5
+food craving : 5
+aortic valve calcification : 5
+blood cholesterol : 5
+spinal cord injury : 5
+eosinophil count decreased : 5
+reflux laryngitis : 5
+urine iron increased : 5
+iron overload : 5
+glomerular filtration rate increased : 5
+blastocystis infection : 5
+beta haemolytic streptococcal infection : 5
+affect lability : 5
+anoxic encephalopathy : 5
+unspecified agent exposure during pregnancy : 5
+meningioma : 5
+angiogram : 5
+inappropriate schedule of drug administration : 5
+culture urine positive : 5
+colectomy : 5
+vitamin b12 deficiency : 5
+lip ulceration : 5
+iritis : 5
+menopause : 5
+scotoma : 5
+stent placement : 5
+concomitant disease aggravated : 5
+colonic obstruction : 5
+drug effect decreased : 5
+bronchial irritation : 5
+chemotherapy : 5
+psychological factor affecting medical condition : 5
+pineal gland cyst : 5
+reflux oesophagitis : 5
+retinal pigment epitheliopathy : 5
+rash scaly : 5
+eyelid tumour : 5
+foetal growth retardation : 5
+skin bleeding : 5
+gait abnormal : 5
+renin decreased : 4
+mouth swelling : 4
 dysbiosis : 4
-renal impairment : 4
-cognitive disorder : 4
-seborrhoeic dermatitis : 4
-dyskinesia : 4
-salivary gland calculus : 4
-biliary colic : 4
-fibromyalgia : 4
-cronobacter infection : 4
-cholelithiasis : 4
-chronic kidney disease : 4
-vitamin b6 increased : 4
-scar : 4
-oedema : 4
-serotonin syndrome : 4
-onychoclasis : 4
-hot flush : 4
-mood altered : 4
-cellulitis : 4
-lip exfoliation : 4
-tic : 4
-yellow skin : 4
-rash macular : 4
-cyst : 4
-skin wrinkling : 4
-secretion discharge : 4
-angioedema : 4
-nasal discomfort : 4
-gastroenteritis salmonella : 4
-attention deficit hyperactivity disorder : 4
-cardiac flutter : 4
+arteriovenous malformation : 4
+torsade de pointes : 4
+gastrointestinal bacterial overgrowth : 4
+muscle mass : 4
+skin striae : 4
+traumatic lung injury : 4
+hirsutism : 4
+infertility : 4
+oral mucosal discolouration : 4
+endoscopy : 4
+application site exfoliation : 4
+thyroiditis : 4
+cerebral palsy : 4
 fallopian tube cancer stage iv : 4
-ovarian cancer stage iv : 4
-basal cell carcinoma : 4
-intraocular pressure increased : 4
-lymphadenopathy : 4
-gastrointestinal infection : 4
-drooling : 3
-impaired driving ability : 3
-productive cough : 3
-adrenal insufficiency : 3
-blood sodium decreased : 3
-incontinence : 3
-musculoskeletal stiffness : 3
-cardiomegaly : 3
-dry eye : 3
-mouth swelling : 3
-mental status changes : 3
-menstruation irregular : 3
-gastroenteritis : 3
-anaemia : 3
-rash pruritic : 3
-circulatory collapse : 3
-blood testosterone increased : 3
-mood swings : 3
-eye injury : 3
-cystitis : 3
-intestinal ischaemia : 3
-ulcer : 3
-dermatitis diaper : 3
-thermal burn : 3
-pneumonia : 3
-cataract : 3
-cardiac arrest : 3
-blood lead increased : 3
-acute psychosis : 3
-gallbladder injury : 3
-hepatotoxicity : 3
-gastrointestinal bacterial overgrowth : 3
-respiratory distress : 3
-dermatitis allergic : 3
-rectal haemorrhage : 3
-panic reaction : 3
-motor dysfunction : 3
-gingival pain : 3
-neurological symptom : 3
-skin odour abnormal : 3
-glossodynia : 3
-pancreatitis acute : 3
-blood potassium increased : 3
-acute hepatic failure : 3
-septic shock : 3
-eye disorder : 3
-atrioventricular block second degree : 3
-neovascular age-related macular degeneration : 3
-glycosylated haemoglobin increased : 3
-gastrointestinal inflammation : 3
-uterine cancer : 3
-sinusitis : 3
-age-related macular degeneration : 3
-postmenopausal haemorrhage : 3
-angina pectoris : 3
-oropharyngeal discomfort : 3
-skin plaque : 3
-lip haemorrhage : 3
-pollakiuria : 3
-heavy menstrual bleeding : 3
-uterine leiomyoma : 3
-pulmonary embolism : 3
-escherichia infection : 3
-respiratory disorder : 3
-blood glucose decreased : 3
-visual field defect : 3
-covid-19 : 3
-endometrial cancer stage i : 3
-gout : 3
-neck pain : 3
+astrovirus test positive : 4
+tooth erosion : 4
+parkinsonism : 4
+blood aluminium increased : 4
+lymph node pain : 4
+toxic shock syndrome : 4
+prostatitis : 4
+granulomatous liver disease : 4
+vibrio test positive : 4
+post concussion syndrome : 4
+application site discolouration : 4
+recurring skin boils : 4
+exfoliative rash : 4
+laryngeal cancer : 4
+tonsil cancer : 4
+infectious colitis : 4
+anal abscess : 4
+lower gastrointestinal haemorrhage : 4
+premature delivery : 4
+colorectal cancer : 4
+homicidal ideation : 4
+keloid scar : 4
+bone density abnormal : 4
+negative thoughts : 4
+sialoadenitis : 4
+personality disorder : 4
+erosive oesophagitis : 4
+circumstance or information capable of leading to medication error : 4
+hypoalbuminaemia : 4
+pleural disorder : 4
+fungal skin infection : 4
+blood urea abnormal : 4
+gastric ph decreased : 4
+duodenal ulcer : 4
+burning sensation mucosal : 4
+uveitis : 4
+pathological fracture : 4
+melanocytic naevus : 4
+chloasma : 4
+small fibre neuropathy : 4
+disturbance in sexual arousal : 4
+menstrual discomfort : 4
+neck mass : 4
+fibrin d dimer increased : 4
+exposure to mould : 4
+posture abnormal : 4
+urine calcium increased : 4
+coronary artery dissection : 4
+spinal compression fracture : 4
+tonsillar inflammation : 4
+tinea cruris : 4
+leukopenia : 4
+breast disorder : 4
+diabetes insipidus : 4
+b-cell lymphoma : 4
+vulvovaginal swelling : 4
+neoplasm progression : 4
+vasoconstriction : 4
+monoparesis : 4
+delusional perception : 4
+head banging : 4
+scrotal pain : 4
+glomerulonephritis : 4
+reaction to preservatives : 4
+prostatic haemorrhage : 4
+burning feet syndrome : 4
+tongue exfoliation : 4
+paranasal sinus hypersecretion : 4
+dermatitis atopic : 4
+feeding disorder of infancy or early childhood : 4
+activation syndrome : 4
+bundle branch block left : 4
+tri-iodothyronine increased : 4
+gastrointestinal ulcer : 4
+medical induction of coma : 4
+non-alcoholic steatohepatitis : 4
+brain stem ischaemia : 4
+change in sustained attention : 4
+sputum discoloured : 4
+knee arthroplasty : 4
+cow's milk intolerance : 4
+enterocolitis infectious : 4
+spinal deformity : 4
+acquired immunodeficiency syndrome : 4
+hypohidrosis : 4
+bradykinesia : 4
+escherichia urinary tract infection : 4
+tendon disorder : 4
+vasospasm : 4
+retinal artery embolism : 4
+synovial cyst : 4
+spontaneous penile erection : 4
+urethral pain : 4
+hemiplegic migraine : 4
+cyst rupture : 4
+blood parathyroid hormone increased : 4
+distractibility : 4
+pharmacophobia : 4
+product taste abnormal : 4
+anal pruritus : 4
+rheumatoid factor increased : 4
+alanine aminotransferase decreased : 4
+lung abscess : 4
+infantile spitting up : 4
+cerebellar syndrome : 4
+retinal scar : 4
+eye operation : 4
+lipids increased : 4
+foetal growth restriction : 4
+adrenal neoplasm : 4
+adrenocortical insufficiency acute : 4
+neoplasm skin : 4
+epstein-barr virus antibody positive : 4
+oral candidiasis : 4
+device dislocation : 4
+hypermagnesaemia : 4
+nasal dryness : 4
+meniscus injury : 4
+hyperoxaluria : 4
+polyarthritis : 4
+breath sounds : 4
+orchitis : 4
+spermatic cord disorder : 4
+bite : 4
+colon adenoma : 4
+lumbar vertebral fracture : 4
+pco2 decreased : 4
+thyroidectomy : 4
+thyroiditis acute : 4
+red cell distribution width increased : 4
+venous pressure jugular increased : 4
+autonomic neuropathy : 4
+nephrocalcinosis : 4
+pulmonary function challenge test abnormal : 4
+biopsy breast abnormal : 4
+abortion : 4
+aplastic anaemia : 4
+neurodegenerative disorder : 4
+biopsy site unspecified abnormal : 4
+angiogram abnormal : 4
+large intestine polyp : 4
+pustular psoriasis : 4
+dysphoria : 4
+periportal oedema : 4
+eosinophilic oesophagitis : 4
+anoxia : 4
+myxoedema : 4
+galactorrhoea : 4
+mitral valve disease : 4
+iodine overload : 4
+crystal urine present : 4
+impetigo : 4
+intestinal cyst : 4
+blood bilirubin decreased : 4
+fibrocystic breast disease : 4
+prothrombin time shortened : 4
+croup infectious : 4
+hand deformity : 4
+deafness unilateral : 4
+vaginal swelling : 4
+burkholderia cepacia infection : 4
+lipids abnormal : 4
+urge incontinence : 4
+myoglobinuria : 4
+encephalomalacia : 4
+vasogenic cerebral oedema : 4
+ovarian neoplasm : 4
+breech delivery : 4
+pitting oedema : 4
+water intoxication : 4
+growth accelerated : 4
+elevated mood : 4
+ceruloplasmin decreased : 4
+mouth breathing : 4
+aortic stenosis : 4
+superior mesenteric artery syndrome : 4
+pressure of speech : 4
+carcinoid syndrome : 4
+cholinergic syndrome : 4
+tracheal obstruction : 4
+reproductive tract disorder : 4
+keratitis : 4
+muscle enzyme increased : 4
+endodontic procedure : 4
+scleral discolouration : 4
+cryptosporidiosis infection : 4
+infectious mononucleosis : 4
+periorbital haematoma : 4
+blood catecholamines : 4
+wrong drug administered : 4
+no therapeutic response : 4
+capillary disorder : 4
+aortic calcification : 4
+polycythaemia : 4
+neurilemmoma : 4
+accidental exposure : 4
+arterial disorder : 4
+traumatic brain injury : 4
+gingival infection : 4
+psychotic behaviour : 4
+patella fracture : 4
+urine copper increased : 4
+prostatectomy : 4
+no adverse event : 4
+pelvic discomfort : 4
+clostridium bacteraemia : 4
+brunner's gland hyperplasia : 4
+antepartum haemorrhage : 4
+brain damage : 4
+acute zonal occult outer retinopathy : 4
+anthrax : 4
+capnocytophaga infection : 4
+moyamoya disease : 4
+posturing : 4
+pain exacerbated : 4
+gynaecological examination : 4
+brain stem stroke : 3
+substance abuse : 3
+contraindicated product administered : 3
+extra dose administered : 3
+blood alkaline phosphatase : 3
+pancreatitis necrotising : 3
+blood lead : 3
+lung hyperinflation : 3
+corneal oedema : 3
+akathisia : 3
+streptococcal infection : 3
+anhedonia : 3
 vascular dementia : 3
-meningitis : 3
-tooth injury : 3
-epigastric discomfort : 3
-disseminated intravascular coagulation : 3
-hypoaesthesia oral : 3
-body temperature fluctuation : 3
+enuresis : 3
+exposure to chemical pollution : 3
+mesothelioma : 3
+post procedural complication : 3
+skin necrosis : 3
+parasite stool test positive : 3
+upper respiratory tract congestion : 3
+intra-abdominal haemorrhage : 3
+pyelonephritis acute : 3
+substance-induced psychotic disorder : 3
+actinic keratosis : 3
+skin erosion : 3
+autoscopy : 3
+meningitis cronobacter : 3
+pneumonia legionella : 3
+hypertrophy of tongue papillae : 3
+cystitis escherichia : 3
+pseudofolliculitis barbae : 3
+blood alkaline phosphatase decreased : 3
+facial nerve disorder : 3
+oral mucosal exfoliation : 3
+parasitic gastroenteritis : 3
+volume blood decreased : 3
+cholangitis : 3
+enterocolitis bacterial : 3
 alcoholic liver disease : 3
-gallbladder disorder : 3
-hepatomegaly : 3
-hypoglycaemia : 2
-diplopia : 2
-aphonia : 2
-application site irritation : 2
-intraventricular haemorrhage : 2
-dry throat : 2
-cardiomyopathy : 2
-blepharospasm : 2
-aspiration : 2
-hyperacusis : 2
-pneumonia aspiration : 2
-migraine with aura : 2
-muscle fatigue : 2
-appendicitis : 2
-neurotoxicity : 2
-photosensitivity reaction : 2
-diarrhoea haemorrhagic : 2
-encephalitis : 2
+acute myeloid leukaemia : 3
+gastrointestinal malformation : 3
+medical diet : 3
+measles : 3
+prothrombin time ratio increased : 3
+pityriasis rosea : 3
+conjunctival hyperaemia : 3
+colour blindness acquired : 3
+csf white blood cell count increased : 3
+arthritis reactive : 3
+application site rash : 3
+bile output : 3
+rectal tenesmus : 3
+urine output : 3
+mechanical urticaria : 3
+meningitis salmonella : 3
+wernicke's encephalopathy : 3
+vitreous detachment : 3
+vestibular disorder : 3
+axillary mass : 3
+breast haemorrhage : 3
+single functional kidney : 3
+vein disorder : 3
+international normalised ratio fluctuation : 3
+presbyopia : 3
+oliguria : 3
+pneumonia bacterial : 3
+tinea versicolour : 3
+aortic dissection : 3
+hypertonic bladder : 3
+charles bonnet syndrome : 3
+retinal vein occlusion : 3
+spinal cord disorder : 3
+abdominal hernia : 3
+gene mutation : 3
+walking disability : 3
+urinary sediment abnormal : 3
+haemorrhoid infection : 3
+hypertensive emergency : 3
+cryptorchism : 3
+brain neoplasm malignant : 3
+weight abnormal : 3
+small intestinal perforation : 3
+eye contusion : 3
+streptococcal bacteraemia : 3
+electric shock : 3
+medication crystals in urine : 3
+repetitive speech : 3
+coronavirus test positive : 3
+heart sounds abnormal : 3
+ear injury : 3
+hypoplastic left heart syndrome : 3
+cervical vertebral fracture : 3
+blood growth hormone increased : 3
+cutis laxa : 3
+blood magnesium abnormal : 3
+decreased interest : 3
+colon cancer stage iv : 3
+hepatic cancer stage iv : 3
+urticaria cholinergic : 3
+gangrene : 3
+giant papillary conjunctivitis : 3
+androgenetic alopecia : 3
+nipple swelling : 3
+ketosis : 3
+dizziness postural : 3
+rectal obstruction : 3
+abdominal adhesions : 3
+application site pruritus : 3
+cerebral disorder : 3
+stomach mass : 3
+colon cancer stage iii : 3
+allergic colitis : 3
+substance-induced mood disorder : 3
+eyelid infection : 3
+nephrotic syndrome : 3
+cervical radiculopathy : 3
+saliva discolouration : 3
+otorrhoea : 3
+mean cell volume increased : 3
+genital disorder male : 3
+hepatic lesion : 3
+terminal insomnia : 3
+oesophageal motility disorder : 3
+nocturia : 3
+serum serotonin decreased : 3
+chalazion : 3
+spleen disorder : 3
+daydreaming : 3
+psoriatic arthropathy : 3
+circadian rhythm sleep disorder : 3
+brain herniation : 3
+bronchopneumonia : 3
+thyrotoxic crisis : 3
+pulmonary valve incompetence : 3
+glassy eyes : 3
+clavicle fracture : 3
+type v hyperlipidaemia : 3
+post lumbar puncture syndrome : 3
+pneumonia klebsiella : 3
+pyuria : 3
+urinary bladder haemorrhage : 3
+leiomyosarcoma : 3
+empyema : 3
+osteonecrosis : 3
+serum ferritin decreased : 3
+finger amputation : 3
+blood testosterone abnormal : 3
+potentiating drug interaction : 3
+product contamination microbial : 3
+skin graft : 3
+hypersensitivity vasculitis : 3
+foetal distress syndrome : 3
+pancreatic enzymes abnormal : 3
+respiratory tract infection viral : 3
+coccydynia : 3
+gastritis viral : 3
+dyschezia : 3
+apnoeic attack : 3
+calcification of muscle : 3
+vaginal disorder : 3
+breast atrophy : 3
+mastectomy : 3
+melanoderma : 3
+idiopathic pulmonary fibrosis : 3
+cystoscopy abnormal : 3
+diverticular perforation : 3
+blood pressure systolic decreased : 3
+crepitations : 3
+myopathy : 3
+pulse pressure increased : 3
+hiv test positive : 3
+pyloric stenosis : 3
+kidney fibrosis : 3
+mountain sickness acute : 3
+procalcitonin increased : 3
+product odour abnormal : 3
+sudden onset of sleep : 3
+vocal cord inflammation : 3
+computerised tomogram kidney abnormal : 3
+computerised tomogram thorax abnormal : 3
+precancerous skin lesion : 3
+decreased vibratory sense : 3
+lid sulcus deepened : 3
+international normalised ratio abnormal : 3
+mixed liver injury : 3
+mammogram : 3
+atypical pneumonia : 3
+bronchiolitis : 3
+pneumoperitoneum : 3
+breast cancer recurrent : 3
+bacterial pyelonephritis : 3
+lead urine increased : 3
+nose deformity : 3
+chronic hepatic failure : 3
+retinal injury : 3
+colour blindness : 3
+uterine polyp : 3
+oesophageal oedema : 3
+antineutrophil cytoplasmic antibody increased : 3
+parathyroid tumour : 3
+metabolic alkalosis : 3
+vitamin e increased : 3
+urine sodium increased : 3
+cervical spinal stenosis : 3
+muscle rupture : 3
+prothrombin consumption time prolonged : 3
+brain stem infarction : 3
+metaplasia : 3
+gastric bypass : 3
+hyperuricaemia : 3
+osteoporotic fracture : 3
+lumbar spinal stenosis : 3
+cholelithiasis obstructive : 3
+atrioventricular block first degree : 3
+hyperparathyroidism : 3
+vaginal odour : 3
+foetal disorder : 3
+amniocentesis : 3
+prenatal screening test abnormal : 3
+tympanic membrane perforation : 3
+logorrhoea : 3
+oxygen saturation abnormal : 3
+biopsy prostate abnormal : 3
+staphylococcal sepsis : 3
+gastroenteritis aeromonas : 3
+gastric polyps : 3
+chronic fatigue syndrome : 3
+intraocular pressure fluctuation : 3
+activated partial thromboplastin time abnormal : 3
+diverticulitis intestinal haemorrhagic : 3
+poor weight gain neonatal : 3
+corneal disorder : 3
+sensation of blood flow : 3
+blood creatine decreased : 3
+crystal urine : 3
+bladder obstruction : 3
+facet joint syndrome : 3
+diabetic coma : 3
+endometrial hyperplasia : 3
+calciphylaxis : 3
+neurological examination abnormal : 3
+pulmonary sarcoidosis : 3
+gallbladder cancer : 3
+palatal swelling : 3
+herpes simplex : 3
+shock hypoglycaemic : 3
+jaw fracture : 3
+blood creatine phosphokinase decreased : 3
+skin bacterial infection : 3
+central nervous system infection : 3
+acute hepatitis b : 3
+cd8 lymphocytes decreased : 3
+hepatitis b core antibody positive : 3
+multiple chemical sensitivity : 3
+cardiac failure chronic : 3
+spinal osteoarthritis : 3
+brain scan abnormal : 3
+electrocardiogram t wave inversion : 3
+apraxia : 3
+umbilical cord prolapse : 3
+idiosyncratic drug reaction : 3
+electrocardiogram qt interval abnormal : 3
+calculus ureteric : 3
+palatal oedema : 3
+breath sounds absent : 3
+polymyalgia rheumatica : 3
+white blood cell count : 3
+fungus culture positive : 3
+mucosal ulceration : 3
+spinal column stenosis : 3
+latex allergy : 3
+csf immunoglobulin increased : 3
+hemianopia homonymous : 3
+lung injury : 3
+intestinal functional disorder : 3
+breast cancer in situ : 3
+aspiration bronchial : 3
+neutrophil count : 3
+anaemia haemolytic autoimmune : 3
+haemolysis : 3
+communication disorder : 3
+self injurious behaviour : 3
+dilatation ventricular : 3
+urine bilirubin increased : 3
+cardioactive drug level increased : 3
+faecal volume decreased : 3
+therapeutic agent toxicity : 3
+tracheostomy : 3
+colostomy : 3
+alopecia effluvium : 3
+hernia repair : 3
+urine analysis : 3
+iodine uptake decreased : 3
+blood creatine phosphokinase mb increased : 3
+blood creatinine normal : 3
+meniscus lesion : 3
+nipple disorder : 3
+aortic valve replacement : 3
+white blood cell disorder : 3
+hepatitis c virus test : 3
+cardiogenic shock : 3
+diaphragmatic disorder : 3
+renal tubular atrophy : 3
+prolonged labour : 3
+respiratory syncytial virus bronchiolitis : 3
+catheter placement : 3
+prostatic specific antigen abnormal : 3
+bezoar : 3
+bile duct stent insertion : 3
+lumbosacral plexus injury : 3
+flat affect : 3
+multi-organ disorder : 3
+vomiting in pregnancy : 3
+disbacteriosis : 3
+tetanus : 3
+diabetic gastroparesis : 3
+ovarian mass : 3
+total lung capacity abnormal : 3
+urethral cancer metastatic : 3
+cardiac function test : 3
+pulmonary function test : 3
+nodal rhythm : 3
+colon operation : 3
+demyelination : 3
+whiplash injury : 3
+growth retardation : 3
+hepatitis c positive : 3
+oropharyngeal spasm : 3
+small intestine operation : 3
+exposure to noise : 3
+spleen scan abnormal : 3
+blood creatine phosphokinase : 3
+tetany : 3
+bile culture positive : 3
+red blood cell count abnormal : 3
+breast operation : 3
+uterine malposition : 3
+renal cell carcinoma stage unspecified : 3
+cholecystitis chronic : 3
+hepatobiliary scan : 3
+hypereosinophilic syndrome : 3
+chest wall pain : 3
+hypometabolism : 3
+skin candida : 3
+bone lesion : 3
+carcinoma : 3
+hoarseness : 3
+keratoconjunctivitis sicca : 3
+whole blood transfusion : 3
+blood corticotrophin decreased : 2
+snoring : 2
 exposure via eye contact : 2
-hair growth abnormal : 2
-copper deficiency : 2
-feeling cold : 2
-mania : 2
-ear pain : 2
-substance abuse : 2
+invasive lobular breast carcinoma : 2
 drug tolerance : 2
-lip and/or oral cavity cancer : 2
-skin infection : 2
-contraindicated product administered : 2
-obesity : 2
-mucous stools : 2
-odynophagia : 2
-blood alkaline phosphatase increased : 2
-extra dose administered : 2
+gaze palsy : 2
+intestinal mass : 2
+megacolon : 2
+sensorimotor disorder : 2
+pupillary disorder : 2
+allodynia : 2
 dry age-related macular degeneration : 2
 skin weeping : 2
-sciatica : 2
-mental disorder : 2
-abnormal weight gain : 2
-bronchitis : 2
-accidental overdose : 2
-eye infection : 2
+exposure to fungus : 2
+mycotoxicosis : 2
 expulsion of medication : 2
-prostatomegaly : 2
-conjunctival haemorrhage : 2
-eyelid pain : 2
-priapism : 2
-hyperthyroidism : 2
-movement disorder : 2
-necrotising fasciitis : 2
-poor quality sleep : 2
-skin striae : 2
-clostridium difficile colitis : 2
-pulmonary fibrosis : 2
-hepatic cirrhosis : 2
-hyperglycaemia : 2
-oesophageal disorder : 2
-type 2 diabetes mellitus : 2
-respiratory arrest : 2
-haematuria : 2
-burns second degree : 2
-ventricular extrasystoles : 2
-pain in jaw : 2
-oropharyngeal swelling : 2
-mydriasis : 2
-seizure like phenomena : 2
-drug withdrawal syndrome : 2
-apnoea : 2
-haemoptysis : 2
-bedridden : 2
-hypopnoea : 2
-glaucoma : 2
-nervousness : 2
-mental impairment : 2
+proctitis : 2
+anaphylaxis prophylaxis : 2
+generalised tonic-clonic seizure : 2
+fructose intolerance : 2
+diabetic retinopathy : 2
 thermal burns of eye : 2
-feeling drunk : 2
-application site exfoliation : 2
 application site scar : 2
-derealisation : 2
-cushingoid : 2
-pharyngeal injury : 2
+exposure to lead : 2
+periorbital swelling : 2
+blood immunoglobulin a increased : 2
 intrusive thoughts : 2
-disease progression : 2
-brain oedema : 2
-gastroenteritis escherichia coli : 2
-haemolytic uraemic syndrome : 2
-madarosis : 2
-bradycardia : 2
-temperature intolerance : 2
-sleep disorder : 2
-hormone level abnormal : 2
+myocardial injury : 2
 angular cheilitis : 2
-conjunctivitis : 2
-bipolar disorder : 2
-eye allergy : 2
-erectile dysfunction : 2
-burns third degree : 2
-colitis : 2
 erythromelalgia : 2
-gastroenteritis viral : 2
-blood pressure abnormal : 2
-body temperature : 2
-arteriospasm coronary : 2
-eye inflammation : 2
-oral allergy syndrome : 2
-eating disorder : 2
-anxiety disorder : 2
+aortic arteriosclerosis : 2
+blood cyanide increased : 2
 multiple organ dysfunction syndrome : 2
-cholecystectomy : 2
-bacteraemia : 2
-gastrointestinal sounds abnormal : 2
+drug resistance : 2
+pulmonary toxicity : 2
 appendix cancer : 2
-ileus : 2
-intentional overdose : 2
-deformity : 2
 radiation injury : 2
-haemolytic anaemia : 2
-life expectancy shortened : 2
-coronary artery occlusion : 2
-blood iron increased : 2
-haemochromatosis : 2
-hypercalcaemia : 2
-parasite stool test positive : 2
-strongyloidiasis : 2
-parosmia : 2
-ear infection : 2
-blood calcium increased : 2
-delirium : 2
-abnormal faeces : 2
-faeces soft : 2
-cholestasis : 2
-hepatic pain : 2
-gingival injury : 2
-gingival bleeding : 2
-gastrointestinal tract irritation : 2
-renal injury : 1
-cardiac failure : 1
-haemorrhoids : 1
-deafness : 1
-abdominal abscess : 1
-hyperventilation : 1
-blood corticotrophin decreased : 1
+arterial rupture : 2
+physical assault : 2
+opiates : 2
+dehydroepiandrosterone increased : 2
+product residue present : 2
+epiploic appendagitis : 2
+vulvovaginal rash : 2
+induration : 2
+hypogonadism : 2
+facial paralysis : 2
+tuberculosis : 2
+exposure via inhalation : 2
+sight disability : 2
+agnosia : 2
+mitochondrial cytopathy : 2
+exposure via breast milk : 2
+increased viscosity of nasal secretion : 2
+heart disease congenital : 2
+spider vein : 2
+mallory-weiss syndrome : 2
+vibrio vulnificus infection : 2
+histamine abnormal : 2
+skin fragility : 2
+gastroenteritis paracolon bacillus : 2
+application site urticaria : 2
+haematological malignancy : 2
+hair metal test : 2
+scleritis : 2
+breast milk substitute intolerance : 2
+gastroenteritis bacterial : 2
+x-ray gastrointestinal tract abnormal : 2
+portal venous gas : 2
+herpes ophthalmic : 2
+stag horn calculus : 2
+xanthopsia : 2
+choluria : 2
+gastrointestinal amyloidosis : 2
+drug withdrawal convulsions : 2
+scleral haemorrhage : 2
+laryngeal injury : 2
+pertussis : 2
+liver abscess : 2
+intermittent explosive disorder : 2
+orthopnoea : 2
+diabetic neuropathy : 2
+therapy cessation : 2
+nail bed disorder : 2
+infected skin ulcer : 2
+rotavirus test positive : 2
+roseola : 2
+eye infection bacterial : 2
+hepatorenal syndrome : 2
+anticholinergic syndrome : 2
+paranoid type : 2
+rotavirus infection : 2
+tardive dyskinesia : 2
+myeloproliferative disorder : 2
+sciatic nerve injury : 2
+thrombophlebitis : 2
+bone cancer : 2
+rhonchi : 2
+white blood cells urine positive : 2
+squamous cell carcinoma of skin : 2
+androgens abnormal : 2
+abdominal sepsis : 2
+blood iron abnormal : 2
+glare : 2
+dental discomfort : 2
+ingrowing nail : 2
+ingrown hair : 2
+weight loss poor : 2
+epiglottic oedema : 2
+macrocytosis : 2
+chronic inflammatory demyelinating polyradiculoneuropathy : 2
+bone marrow disorder : 2
+male orgasmic disorder : 2
+cellulitis staphylococcal : 2
+prinzmetal angina : 2
+ischaemic cardiomyopathy : 2
+kawasaki's disease : 2
+bacterial sepsis : 2
+spina bifida : 2
+androgens increased : 2
+cytokine storm : 2
+ophthalmoplegia : 2
+renal aplasia : 2
+retroperitoneal cancer : 2
+loose tooth : 2
+toxic epidermal necrolysis : 2
+cerebrovascular stenosis : 2
+apparent life threatening event : 2
+cutaneous lupus erythematosus : 2
+breast cancer stage iii : 2
+urethritis : 2
+oesophageal ulcer haemorrhage : 2
+precancerous cells present : 2
+tongue movement disturbance : 2
+omphalitis : 2
+viral load increased : 2
+gastric mucosa erythema : 2
+dyslexia : 2
+oesophageal perforation : 2
+phobia : 2
+ocular vascular disorder : 2
+dysbacteriosis : 2
+noninfective conjunctivitis : 2
+injury corneal : 2
+optic ischaemic neuropathy : 2
+blood pressure inadequately controlled : 2
+autoimmune haemolytic anaemia : 2
+piriformis syndrome : 2
+periorbital cellulitis : 2
+abortion threatened : 2
+bacterial vaginosis : 2
+insulin resistance : 2
+corneal dystrophy : 2
+epstein-barr virus infection : 2
+neutropenic sepsis : 2
+eye infection viral : 2
+hepatocellular carcinoma : 2
+oesophageal dilatation : 2
+clitoral engorgement : 2
+transferrin saturation increased : 2
+bunion : 2
+application site warmth : 2
+dacryostenosis acquired : 2
+macular hole : 2
+subcutaneous abscess : 2
+injury associated with device : 2
+application site papules : 2
+eye ulcer : 2
+brain hypoxia : 2
+uterine prolapse : 2
+nail bed inflammation : 2
+fibroma : 2
+respiratory tract infection bacterial : 2
+hepatic enzyme decreased : 2
+pulmonary function test decreased : 2
+manganese increased : 2
+kidney malformation : 2
+premature separation of placenta : 2
+small intestinal intussusception reduction : 2
+gingival inflammation : 2
+retinal vascular disorder : 2
+brain stem thrombosis : 2
+medial tibial stress syndrome : 2
+bladder mass : 2
+cardiac death : 2
+pupillary reflex impaired : 2
+eye degenerative disorder : 2
+blood insulin abnormal : 2
+drug withdrawal syndrome neonatal : 2
+urethral discharge : 2
+meibomianitis : 2
+diaphragmatic hernia : 2
+occipital neuralgia : 2
+device damage : 2
+obstruction gastric : 2
+blepharal papilloma : 2
+biopsy bronchus abnormal : 2
+acute stress disorder : 2
+perfume sensitivity : 2
+subretinal fluid : 2
+amoebiasis : 2
+cerebrospinal fluid leakage : 2
+haemoglobin abnormal : 2
+premature rupture of membranes : 2
+febrile neutropenia : 2
+amaurosis fugax : 2
+serum serotonin increased : 2
+brain cancer metastatic : 2
+menopausal symptoms : 2
+urine sodium decreased : 2
+sternal fracture : 2
+amniocentesis abnormal : 2
+lactation disorder : 2
+haemorrhagic anaemia : 2
+urethral stenosis : 2
+vitamin a increased : 2
+bladder dysfunction : 2
+aborted pregnancy : 2
+atrial septal defect : 2
+motor developmental delay : 2
+neurotransmitter level altered : 2
+vascular occlusion : 2
+sperm concentration decreased : 2
+intestinal malrotation : 2
+blood glucose : 2
+retrograde ejaculation : 2
+thyroxine free increased : 2
+glossopharyngeal nerve paralysis : 2
+post inflammatory pigmentation change : 2
+biopsy spleen abnormal : 2
+lichen planus : 2
+product package associated injury : 2
+sexual inhibition : 2
+rubber sensitivity : 2
+lipoma : 2
+anaphylaxis treatment : 2
+anal fungal infection : 2
+sputum increased : 2
+oropharyngeal candidiasis : 2
+hepatitis a virus test positive : 2
+jaundice hepatocellular : 2
+pulmonary function test abnormal : 2
+pancytopenia : 2
+bronchitis chronic : 2
+vitreous injury : 2
+ischaemic hepatitis : 2
+portal fibrosis : 2
+progesterone increased : 2
+fear of open spaces : 2
+opisthotonus : 2
+maximum heart rate increased : 2
+blood pressure diastolic decreased : 2
+angle closure glaucoma : 2
+intestinal stenosis : 2
+fear of eating : 2
+papilloma : 2
+lymph gland infection : 2
+b-lymphocyte count increased : 2
+interstitial granulomatous dermatitis : 2
+lichenoid keratosis : 2
+diverticulum intestinal : 2
+cytomegalovirus test positive : 2
+renal neoplasm : 2
+gingival pruritus : 2
+ligament rupture : 2
+craniofacial deformity : 2
+rib deformity : 2
+vitreomacular interface abnormal : 2
+anisakiasis : 2
+central nervous system lesion : 2
+parasite blood test positive : 2
+heart valve calcification : 2
+iatrogenic injury : 2
+loss of visual contrast sensitivity : 2
+carbon dioxide abnormal : 2
+blood immunoglobulin m increased : 2
+bone swelling : 2
+brucellosis : 2
+duodenal ulcer haemorrhage : 2
+testis cancer : 2
+labour pain : 2
+pruritus genital : 2
+body fat disorder : 2
+cough decreased : 2
+pancreatic cyst : 2
+bladder injury : 2
+aeromonas test positive : 2
+gastric perforation : 2
+vitamin b2 increased : 2
+skin mass : 2
+papillary thyroid cancer : 2
+amniotic fluid volume decreased : 2
+transferrin saturation decreased : 2
+night blindness : 2
+serum sickness : 2
+pharyngeal haematoma : 2
+gastric mucosal lesion : 2
+testicular atrophy : 2
+cardiac monitoring : 2
+streptococcus test positive : 2
+biopsy stomach abnormal : 2
+gastric ph increased : 2
+anti-transglutaminase antibody increased : 2
+parathyroid scan abnormal : 2
+hypothalamo-pituitary disorder : 2
+glucose tolerance test abnormal : 2
+physical examination abnormal : 2
+blood viscosity decreased : 2
+drug level decreased : 2
+hypertensive heart disease : 2
+gastrointestinal mucosal disorder : 2
+cold-stimulus headache : 2
+impulse-control disorder : 2
+aneurysm ruptured : 2
+aptyalism : 2
+neuroendocrine tumour : 2
+monocyte count decreased : 2
+atrial rupture : 2
+silent myocardial infarction : 2
+compression fracture : 2
+bacterial translocation : 2
+anaemia megaloblastic : 2
+cerebrovascular disorder : 2
+muscle hypertrophy : 2
+abdominal hernia perforation : 2
+cystitis noninfective : 2
+oestrogen receptor positive breast cancer : 2
+biopsy bone marrow abnormal : 2
+ultrasound breast abnormal : 2
+staphylococcal skin infection : 2
+microcytic anaemia : 2
+otitis media : 2
+antineutrophil cytoplasmic antibody : 2
+necrotising enterocolitis neonatal : 2
+cranial nerve paralysis : 2
+brain abscess : 2
+lacunar infarction : 2
+platelet count abnormal : 2
+drowning : 2
+blood aldosterone decreased : 2
+miliaria : 2
+feeling guilty : 2
+blood methanol increased : 2
+large intestinal ulcer haemorrhage : 2
+bone loss : 2
+reading disorder : 2
+finger deformity : 2
+blood urea nitrogen/creatinine ratio increased : 2
+complex regional pain syndrome : 2
+alkalosis hypochloraemic : 2
+ventricular septal defect : 2
+transplant rejection : 2
+tendon pain : 2
+mycotic allergy : 2
+fat intolerance : 2
+rectal ulcer : 2
+skin turgor decreased : 2
+oligohydramnios : 2
+rickets : 2
+ultrasound ovary abnormal : 2
+metastatic neoplasm : 2
+platelet disorder : 2
+physical breast examination abnormal : 2
+varicella : 2
+photodermatosis : 2
+head deformity : 2
+slow response to stimuli : 2
+vitamin b2 deficiency : 2
+femoral hernia : 2
+eczema weeping : 2
+depilation : 2
+exercise lack of : 2
+short-bowel syndrome : 2
+hepatic haemorrhage : 2
+placental chorioangioma : 2
+vascular cauterisation : 2
+oral papilloma : 2
+ultrasound biliary tract : 2
+skin wound : 2
+urine cannabinoids increased : 2
+urine viscosity increased : 2
+alanine aminotransferase : 2
+balanoposthitis : 2
+gliosis : 2
+breast cyst : 2
+gastrointestinal hypomotility : 2
+joint deposit : 2
+skin degenerative disorder : 2
+mucosal erosion : 2
+polycythaemia vera : 2
+thyroiditis subacute : 2
+skin hypopigmentation : 2
+blood pressure immeasurable : 2
+tryptase increased : 2
+intra-abdominal haematoma : 2
+neutrophil count abnormal : 2
+acoustic stimulation tests abnormal : 2
+alpha-1 anti-trypsin decreased : 2
+hypolipidaemia : 2
+drug exposure via breast milk : 2
+gastritis bacterial : 2
+full blood count abnormal : 2
+rocky mountain spotted fever : 2
+tongue paralysis : 2
+anti-hbs antibody positive : 2
+gram stain positive : 2
+gingival discolouration : 2
+lymphocytic infiltration : 2
+factitious disorder : 2
+pica : 2
+reversible posterior leukoencephalopathy syndrome : 2
+accidental poisoning : 2
+immature respiratory system : 2
+electrocardiogram q wave abnormal : 2
+nasal septum deviation : 2
+iodine allergy : 2
+band neutrophil percentage increased : 2
+resorption bone increased : 2
+oesophageal operation : 2
+perineal pain : 2
+meningitis aseptic : 2
+stridor : 2
+bladder repair : 2
+blood caffeine : 2
+glomerulosclerosis : 2
+lipase decreased : 2
+epididymal cyst : 2
+venous occlusion : 2
+liver scan abnormal : 2
+blood corticotrophin abnormal : 2
+prealbumin decreased : 2
+cardiac aneurysm : 2
+von willebrand's disease : 2
+bone neoplasm malignant : 2
+drug ineffective for unapproved indication : 2
+asperger's disorder : 2
+endotracheal intubation : 2
+excessive granulation tissue : 2
+electrocardiogram normal : 2
+insulin tolerance test normal : 2
+parasite stool test negative : 2
+stool analysis normal : 2
+ultrasound testes normal : 2
+judgement impaired : 2
+heat rash : 2
+cervix disorder : 2
+cerebellar haemorrhage : 2
+intervertebral disc disorder : 2
+mycobacterium chelonei infection : 2
+contrast media reaction : 2
+dermographism : 2
+urine protein/creatinine ratio increased : 2
+congenital central nervous system anomaly : 2
+progesterone decreased : 2
+cytotoxic oedema : 2
+diarrhoea infectious : 2
+amniorrhoea : 2
+acute coronary syndrome : 2
+coronary arterial stent insertion : 2
+shoulder operation : 2
+sarcoma : 2
+post procedural infection : 2
+polypectomy : 2
+bacteria urine identified : 2
+spleen operation : 2
+dermoid cyst : 2
+pancreatic mass : 2
+bladder catheterisation : 2
+electrocardiogram qrs complex prolonged : 2
+occult blood : 2
+hyposmia : 2
+hodgkin's disease : 2
+foetal malposition : 2
+limb deformity : 2
+oxalosis : 2
+intra-uterine contraceptive device removal : 2
+umbilical cord around neck : 2
+immunoglobulins decreased : 2
+hyperemesis gravidarum : 2
+plasma cells increased : 2
+venous injury : 2
+adrenal suppression : 2
+corneal erosion : 2
+granulocyte count increased : 2
+temporal lobe epilepsy : 2
+pneumonia primary atypical : 2
+ventricular hypokinesia : 2
+vitamin k decreased : 2
+drug effect increased : 2
+chronic sinusitis : 2
+blood triglycerides abnormal : 2
+blood triglycerides decreased : 2
+carbuncle : 2
+lymphoid tissue hyperplasia : 2
+focal segmental glomerulosclerosis : 2
+foetal malpresentation : 2
+cholangitis sclerosing : 2
+starvation : 2
+anosognosia : 2
+mean platelet volume increased : 2
+therapy regimen changed : 2
+angioplasty : 2
+optic atrophy : 2
+creatinine renal clearance decreased : 2
+mumps : 2
+vaginal erythema : 2
+knee operation : 2
+cardiac function test normal : 2
+pco2 increased : 2
+vascular rupture : 2
+resuscitation : 2
+anogenital warts : 2
+po2 increased : 2
+hypovolaemia : 2
+vitamin b complex deficiency : 2
+feeling of relaxation : 2
+pneumonia necrotising : 2
+sexual activity increased : 2
+small intestinal resection : 2
+acute pulmonary oedema : 2
+granuloma skin : 2
+calcium metabolism disorder : 2
+thyroid pain : 2
+trisomy 18 : 2
+femoral neck fracture : 2
+live birth : 2
+pain management : 2
+detoxification : 2
+hypertrophy : 2
+cupulolithiasis : 2
+pneumonitis chemical : 2
+mycobacterium avium complex infection : 2
+blood parathyroid hormone abnormal : 2
+skin induration : 2
+body height abnormal : 2
+lower limb deformity : 2
+labyrinthitis : 2
+pregnancy induced hypertension : 2
+renal artery occlusion : 2
+operative haemorrhage : 2
+proctitis ulcerative : 2
+colon cancer stage i : 2
+respiratory syncytial virus infection : 2
+portal vein thrombosis : 2
+oily skin : 2
+removal of foreign body from oesophagus : 2
+analgesia : 2
+deja vu : 2
+blood bicarbonate abnormal : 2
+elevated pacing threshold : 2
+brain stem auditory evoked response abnormal : 2
+oesophageal achalasia : 2
+skin inflammation : 2
+coma acidotic : 2
+flight of ideas : 2
+dysaesthesia : 2
+electrocardiogram change : 2
+central nervous system inflammation : 2
+lymphocyte percentage increased : 2
+hernia obstructive : 2
+hypochromic anaemia : 2
+laparotomy : 2
+coital bleeding : 2
+residual urine : 2
+smear cervix abnormal : 2
+intestinal villi atrophy : 2
+aortic aneurysm rupture : 2
+gastric ulcer perforation : 2
+joint arthroplasty : 2
+renal surgery : 2
+ammonia abnormal : 2
+electrocardiogram t wave abnormal : 2
+adenoid cystic carcinoma : 2
+oral cavity neoplasm surgery : 2
+oral surgery : 2
+anal discomfort : 2
+splinter : 2
+epididymal tenderness : 2
+lumbar puncture : 2
+sepsis syndrome : 2
+skeletal muscle enzymes : 2
+calcium intoxication : 2
+central nervous system function test abnormal : 2
+blood antimony : 2
+staphylococcal scalded skin syndrome : 2
+lentigo : 2
+hyperphagia : 2
+stool analysis : 2
+blood creatine phosphokinase mb abnormal : 2
+eyes sunken : 2
+nasal sinus drainage : 2
+faecal occult blood positive : 2
+hyperprolactinaemia : 2
+hepatitis chronic active : 2
+regurgitation of food : 2
+persecutory type : 2
+stress symptoms : 2
+fasciotomy : 2
+oral soft tissue disorder : 2
+creutzfeldt-jakob disease : 2
+seroma : 2
+neurosurgery : 2
+myotonia : 2
+desquamation mouth : 2
+stools watery : 2
+concomitant disease progression : 2
+urethral dilation procedure : 2
+culture wound positive : 2
+psychiatric evaluation : 2
+urological examination : 2
+neurological examination : 2
+unexpected therapeutic drug effect : 2
+sinus pain : 2
 cortisol decreased : 1
-renin decreased : 1
 bell's palsy : 1
-ear discomfort : 1
-thyroid disorder : 1
-impaired gastric emptying : 1
-ataxia : 1
-brain stem stroke : 1
 capillary nail refill test abnormal : 1
-appendicectomy : 1
-immune system disorder : 1
-muscle contractions involuntary : 1
-acidosis : 1
 hypervitaminosis b6 : 1
-fear : 1
-colitis ulcerative : 1
-snoring : 1
-hyperthermia : 1
-oral pain : 1
 accidental exposure to product by elderly person : 1
-foot fracture : 1
 device physical property issue : 1
-pleural effusion : 1
-invasive lobular breast carcinoma : 1
 troponin abnormal : 1
-incoherent : 1
-orthostatic hypotension : 1
-vertigo positional : 1
 intentional product misuse : 1
-facial paresis : 1
-gaze palsy : 1
-sensory loss : 1
-embolism : 1
-bladder pain : 1
-head titubation : 1
-arteriovenous malformation : 1
 gastrointestinal wall thickening : 1
-intestinal mass : 1
-megacolon : 1
 mesenteric venous occlusion : 1
-pneumatosis : 1
-sensorimotor disorder : 1
-vulvovaginal pruritus : 1
-pupillary disorder : 1
-allodynia : 1
-dissociation : 1
-torsade de pointes : 1
 symptom recurrence : 1
-basedow's disease : 1
-sensation of foreign body : 1
 brugada syndrome : 1
-feeling jittery : 1
-liver function test abnormal : 1
-tongue disorder : 1
-blood magnesium increased : 1
-proctalgia : 1
-drug-induced liver injury : 1
-choking sensation : 1
-vascular injury : 1
-exposure to fungus : 1
-mycotoxicosis : 1
-urine odour abnormal : 1
-penile haemorrhage : 1
 limbic encephalitis : 1
-drug hypersensitivity : 1
-blood alkaline phosphatase : 1
-hepatic steatosis : 1
-coronary artery disease : 1
-blepharitis : 1
-oral disorder : 1
-helicobacter infection : 1
-cholecystitis acute : 1
-yersinia infection : 1
-muscle mass : 1
-furuncle : 1
-staphylococcal infection : 1
-sinus headache : 1
-angiopathy : 1
-joint stiffness : 1
-histamine level increased : 1
-proctitis : 1
-traumatic lung injury : 1
-hirsutism : 1
-endocrine disorder : 1
 intellectualisation : 1
-personality change : 1
-haemorrhoidal haemorrhage : 1
-limb discomfort : 1
-skin cancer : 1
-skin warm : 1
-ulcer haemorrhage : 1
-lipase increased : 1
-pancreatitis necrotising : 1
-blood lead : 1
-menstrual disorder : 1
-non-hodgkin's lymphoma : 1
-lung hyperinflation : 1
-lower respiratory tract infection : 1
-vitamin d increased : 1
-international normalised ratio increased : 1
-maternal exposure during pregnancy : 1
-shock : 1
-urine ketone body present : 1
-listeriosis : 1
-anaphylaxis prophylaxis : 1
-sleep terror : 1
-infertility : 1
-urinary tract obstruction : 1
-urine output decreased : 1
 catarrh : 1
-respiratory rate increased : 1
-generalised tonic-clonic seizure : 1
-affective disorder : 1
-herpes virus infection : 1
 brief resolved unexplained event : 1
 rhinophyma : 1
-hypoxia : 1
-respiratory depression : 1
-fructose intolerance : 1
-toxic encephalopathy : 1
 blood osmolarity increased : 1
-diabetic retinopathy : 1
-anorectal discomfort : 1
-upper-airway cough syndrome : 1
-apathy : 1
-macular oedema : 1
-dark circles under eyes : 1
-red blood cell abnormality : 1
-screaming : 1
-bradyphrenia : 1
-polydipsia : 1
-polyuria : 1
-lactose intolerance : 1
 shock haemorrhagic : 1
 exposure via skin contact : 1
-oral mucosal discolouration : 1
-endoscopy : 1
-cerebral haemorrhage : 1
-blood creatine increased : 1
-pain in extremity : 1
-helicobacter gastritis : 1
-blood glucose fluctuation : 1
-corneal oedema : 1
-deep vein thrombosis : 1
-hunger : 1
-increased appetite : 1
 impaired quality of life : 1
-nasal oedema : 1
-exposure to lead : 1
 peripheral paralysis : 1
 fine motor skill dysfunction : 1
 muscle discomfort : 1
-periorbital swelling : 1
-thyroiditis : 1
 product use complaint : 1
 depersonalisation/derealisation disorder : 1
-blood immunoglobulin a increased : 1
-tongue discolouration : 1
-thyroid function test abnormal : 1
-salivary hypersecretion : 1
-libido increased : 1
-skin haemorrhage : 1
 palatal operation : 1
-nightmare : 1
-brain injury : 1
-tension headache : 1
-restless legs syndrome : 1
-myocardial injury : 1
-breath odour : 1
-cheilitis : 1
-oesophageal pain : 1
-brain neoplasm : 1
-myoclonus : 1
-malabsorption : 1
-sjogren's syndrome : 1
-asphyxia : 1
-dysphonia : 1
-blood pressure systolic increased : 1
 liver function test increased : 1
-ageusia : 1
-akathisia : 1
-restlessness : 1
-acute sinusitis : 1
-eye discharge : 1
-eyelid rash : 1
-skin injury : 1
-hepatocellular injury : 1
-foreign body aspiration : 1
-tongue dry : 1
-antisocial behaviour : 1
-cronobacter test positive : 1
 hypertonia : 1
-laziness : 1
-partial seizures : 1
-photopsia : 1
-wheelchair user : 1
-oesophageal stenosis : 1
-hordeolum : 1
 foetal exposure during delivery : 1
-hydronephrosis : 1
-vulvovaginal burning sensation : 1
-peroneal nerve palsy : 1
-blood creatinine increased : 1
-hiatus hernia : 1
-self-injurious ideation : 1
-infection parasitic : 1
 consciousness fluctuating : 1
-chemical burns of eye : 1
-vitreous floaters : 1
-pneumothorax : 1
-sinus congestion : 1
-streptococcal infection : 1
 morphoea : 1
-acute respiratory failure : 1
-drug abuse : 1
-fungaemia : 1
-nystagmus : 1
 obstructive sleep apnoea syndrome : 1
-bundle branch block right : 1
-hepatic mass : 1
 pulmonary calcification : 1
-renal mass : 1
-coma : 1
 near death experience : 1
-gastric dilatation : 1
 axonal neuropathy : 1
-neuromyopathy : 1
-retinal detachment : 1
-pharyngeal erythema : 1
-emphysema : 1
-accidental exposure to product : 1
 loss of personal independence in daily activities : 1
-bladder discomfort : 1
-erythema of eyelid : 1
-micturition urgency : 1
-muscle atrophy : 1
-cerebral palsy : 1
 administration site discolouration : 1
-seborrhoea : 1
-hip fracture : 1
 burn oral cavity : 1
 fallopian tube cancer stage i : 1
-adrenal disorder : 1
-blood iron decreased : 1
-listless : 1
-anhedonia : 1
 cauda equina syndrome : 1
 fungal disease carrier : 1
-loss of libido : 1
-loss of proprioception : 1
-skin swelling : 1
 koilonychia : 1
-throat cancer : 1
-pharyngeal disorder : 1
-blood zinc increased : 1
-myelopathy : 1
-eye oedema : 1
-nerve injury : 1
 silicosis : 1
-libido decreased : 1
-aortic arteriosclerosis : 1
-blood cyanide increased : 1
-sensory disturbance : 1
 skin abrasion : 1
-post-traumatic stress disorder : 1
-sinus tachycardia : 1
-gingivitis : 1
 endometrial cancer stage iv : 1
-peritonitis : 1
-aortic aneurysm : 1
 aortic dilatation : 1
-prostatic specific antigen increased : 1
-drug screen false positive : 1
 aphthous ulcer : 1
-rhabdomyolysis : 1
-burning mouth syndrome : 1
 meningitis escherichia : 1
-drug resistance : 1
-intestinal perforation : 1
 ovarian cancer metastatic : 1
 poor feeding infant : 1
-pulmonary toxicity : 1
-extrasystoles : 1
-heart rate abnormal : 1
-scleroderma : 1
 nematodiasis : 1
-sexual dysfunction : 1
 product administration error : 1
-developmental delay : 1
-chest x-ray abnormal : 1
-nasopharyngitis : 1
-food intolerance : 1
-emotional disorder : 1
-enuresis : 1
-full blood count decreased : 1
-hand fracture : 1
-postural orthostatic tachycardia syndrome : 1
 autism spectrum disorder : 1
-exposure to chemical pollution : 1
-mesothelioma : 1
-blood magnesium decreased : 1
-oesophageal injury : 1
-post procedural complication : 1
-depressed level of consciousness : 1
-rectal discharge : 1
 application site dryness : 1
-skin necrosis : 1
-wound : 1
-breast mass : 1
-renal disorder : 1
-astrovirus test positive : 1
-escherichia test positive : 1
-dysstasia : 1
-colon cancer : 1
-renal haemorrhage : 1
 disruptive mood dysregulation disorder : 1
 intellectual disability : 1
-nephritis : 1
 discoloured vomit : 1
-small intestinal obstruction : 1
-hypertensive crisis : 1
-injury : 1
-diaphragmalgia : 1
-motion sickness : 1
-vomiting projectile : 1
 application site infection : 1
-respiration abnormal : 1
-cholera : 1
-hepatic function abnormal : 1
-sinus disorder : 1
-learning disorder : 1
-meningitis cronobacter : 1
-hair disorder : 1
-hepatic cancer : 1
-enteritis : 1
-vibrio test positive : 1
-hypotonia : 1
+oral lichenoid reaction : 1
+inappropriate schedule of product administration : 1
+haemophagocytic lymphohistiocytosis : 1
+bulimia nervosa : 1
+clonic convulsion : 1
+arthropod sting : 1
+pharyngeal paraesthesia : 1
+type iv hypersensitivity reaction : 1
+mental fatigue : 1
+gastroenteritis sapovirus : 1
+allergic respiratory disease : 1
+spontaneous amputation : 1
+bone cancer metastatic : 1
+post-traumatic amnestic disorder : 1
+emotional disorder of childhood : 1
+trichiasis : 1
+cerebral venous sinus thrombosis : 1
+pneumocystis jirovecii pneumonia : 1
+gastroenteritis listeria : 1
+throat clearing : 1
+myxoma : 1
+carcinogenicity : 1
+vascular device infection : 1
+alkalosis : 1
+internal haemorrhage : 1
+bladder diverticulum : 1
+intraocular lens implant : 1
+morning sickness : 1
+bradypnoea : 1
+overgrowth fungal : 1
+ureaplasma test positive : 1
+proteus test positive : 1
+teeth brittle : 1
+gait inability : 1
+neuropathy vitamin b6 deficiency : 1
+platelet aggregation decreased : 1
+taste disorder : 1
+swelling of eyelid : 1
+trichoglossia : 1
+anorectal swelling : 1
+tracheitis : 1
+poikilothermia : 1
+chemical burn of gastrointestinal tract : 1
+bile acid malabsorption : 1
+acth stimulation test abnormal : 1
 pulmonary haemorrhage : 1
-application site urticaria : 1
-faeces pale : 1
-stomatitis : 1
-facial paralysis : 1
-splenomegaly : 1
-bladder disorder : 1
-viral infection : 1
-pancreatic enzymes increased : 1
-blood ketone body increased : 1
-bone pain : 1
-appetite disorder : 1
-night sweats : 1
-abdominal tenderness : 1
-choluria : 1
-blood thyroid stimulating hormone increased : 1
+sclerodactylia : 1
+csf white blood cell count positive : 1
+sleep paralysis : 1
+splinter haemorrhages : 1
+benign gastrointestinal neoplasm : 1
+freezing phenomenon : 1
+gallbladder adenocarcinoma : 1
 excessive cerumen production : 1
-muscle tightness : 1
-body temperature decreased : 1
-vulvovaginal pain : 1
+xanthelasma : 1
+hyponatraemic syndrome : 1
+gallbladder oedema : 1
+pylorus dilatation : 1
 blood pressure measurement : 1
+child maltreatment syndrome : 1
+bacterial test : 1
+splenic rupture : 1
+viral myelitis : 1
+infective glossitis : 1
+small bowel angioedema : 1
+full blood count increased : 1
+ileus paralytic : 1
+carboxyhaemoglobin decreased : 1
+bordetella infection : 1
+obstructive uropathy : 1
 increased viscosity of upper respiratory secretion : 1
+vitamin c deficiency : 1
+mycobacterium test positive : 1
 moaning : 1
-hyperkeratosis : 1
-norovirus test positive : 1
-visual acuity reduced : 1
-vibrio vulnificus infection : 1
-burn oesophageal : 1
-skin tightness : 1
-tongue pruritus : 1
-mouth injury : 1
-exposure via breast milk : 1
-abnormal dreams : 1
-tonic clonic movements : 1
-injury associated with device : 1
-alveolitis allergic : 1
-local swelling : 1
-pharyngeal oedema : 1
+heart transplant : 1
+treatment noncompliance : 1
+achlorhydria : 1
+breast neoplasm : 1
+neuroendocrine carcinoma of the skin : 1
+chronic spontaneous urticaria : 1
+malignant mast cell neoplasm : 1
+slow speech : 1
+sinusitis fungal : 1
+macroglossia : 1
+cyanosis neonatal : 1
+arthritis bacterial : 1
+staphylococcal abscess : 1
+musculoskeletal deformity : 1
+adenovirus infection : 1
+gastroenteritis clostridial : 1
+visual acuity reduced transiently : 1
+oropharyngeal scar : 1
+abortion spontaneous complete : 1
+cns ventriculitis : 1
+anion gap decreased : 1
+liver iron concentration increased : 1
+bacterial diarrhoea : 1
+abscess of eyelid : 1
+human metapneumovirus test positive : 1
+abdominal wall abscess : 1
+instillation site haemorrhage : 1
+radiation skin injury : 1
+antiallergic therapy : 1
+gastrointestinal cancer metastatic : 1
+pharyngo-oesophageal diverticulum : 1
+levator syndrome : 1
+acute generalised exanthematous pustulosis : 1
+salivary gland pain : 1
+hypnopompic hallucination : 1
+limb malformation : 1
+cystitis haemorrhagic : 1
+ear infection bacterial : 1
+spontaneous ejaculation : 1
+autoinflammatory disease : 1
+cardiovascular insufficiency : 1
+peripheral nerve injury : 1
+laryngeal discomfort : 1
+pityriasis rubra pilaris : 1
+sweat discolouration : 1
+device occlusion : 1
+dizziness exertional : 1
+staring : 1
+post-traumatic osteoporosis : 1
+joint vibration : 1
+peritoneal neoplasm : 1
+protein c deficiency : 1
+optic neuropathy : 1
+diaphragmatic rupture : 1
+penile erythema : 1
+benign neoplasm : 1
+rift valley fever : 1
+periorbital fat atrophy : 1
+retinal deposits : 1
+multi-vitamin deficiency : 1
+lichen sclerosus : 1
+product packaging quantity issue : 1
+gastrointestinal toxicity : 1
+device colour issue : 1
+hyporesponsive to stimuli : 1
+body height increased : 1
+sensitivity to weather change : 1
+stool heavy metal positive : 1
+fungal oesophagitis : 1
+thyroid b-cell lymphoma : 1
+heart valve stenosis : 1
+procedural dizziness : 1
+joint effusion : 1
+product quality issue : 1
+vitamin b6 decreased : 1
+b-cell lymphoma recurrent : 1
+vitamin c increased : 1
+renal atrophy : 1
+application site acne : 1
+benign neoplasm of skin : 1
+hypertensive cardiomegaly : 1
+helicobacter test positive : 1
+congenital optic nerve anomaly : 1
+lower urinary tract symptoms : 1
+anorgasmia : 1
+visual pathway disorder : 1
+carcinoid tumour of the pancreas : 1
+blood thyroid stimulating hormone : 1
+maternal exposure before pregnancy : 1
+erosive duodenitis : 1
+urethral spasm : 1
+fructose : 1
+ankylosing spondylitis : 1
+ejaculation failure : 1
+tracheal injury : 1
+acute leukaemia : 1
+palmar erythema : 1
+oesophageal neoplasm : 1
+enterocolitis haemorrhagic : 1
+haemorrhage in pregnancy : 1
+vibratory sense increased : 1
+pituitary-dependent cushing's syndrome : 1
+oesophageal mass : 1
+pericardial cyst : 1
+neonatal asphyxia : 1
+laryngomalacia : 1
+dysthymic disorder : 1
+infestation : 1
+hydrocele : 1
+testicular cyst : 1
+contraindication to medical treatment : 1
+polyneuropathy idiopathic progressive : 1
+respiratory tract infection fungal : 1
+osteomalacia : 1
+blood carbon monoxide : 1
+eyelid injury : 1
+dermatomyositis : 1
+cronobacter bacteraemia : 1
+application site vesicles : 1
+cardiac output decreased : 1
+peripheral artery thrombosis : 1
+human chorionic gonadotropin decreased : 1
+pneumaturia : 1
+abortion induced : 1
+animal scratch : 1
+retinal neoplasm : 1
+pancreatic carcinoma metastatic : 1
+fungal peritonitis : 1
+peritonitis bacterial : 1
+blood follicle stimulating hormone increased : 1
+hepatitis b antibody positive : 1
+venous thrombosis limb : 1
+tracheal disorder : 1
+nuchal rigidity : 1
+radicular pain : 1
+spinal epidural haematoma : 1
+cervix carcinoma stage ii : 1
+prostatic mass : 1
+glomerulonephritis membranous : 1
+invasive ductal breast carcinoma : 1
+meningism : 1
+airway burns : 1
+lung adenocarcinoma : 1
+renal cancer stage i : 1
+breast cancer stage ii : 1
+colorectal cancer stage iv : 1
+ankle brachial index : 1
+intermittent claudication : 1
+dissociative fugue : 1
+mediastinal abscess : 1
+infective pulmonary exacerbation of cystic fibrosis : 1
+sinusitis bacterial : 1
+red blood cells urine : 1
+pharyngeal ulceration : 1
+nail bed bleeding : 1
+oral discharge : 1
+viral upper respiratory tract infection : 1
+prostate cancer stage iv : 1
+venoocclusive liver disease : 1
+clinically isolated syndrome : 1
+non-hodgkin's lymphoma metastatic : 1
+instillation site foreign body sensation : 1
+eczema eyelids : 1
+wolff-parkinson-white syndrome : 1
+hyperaldosteronism : 1
+premature ejaculation : 1
+tinea capitis : 1
+infertility female : 1
+product contamination physical : 1
+oral viral infection : 1
+cholangitis acute : 1
+nose and throat examination abnormal : 1
+areflexia : 1
+nephrosclerosis : 1
+blood growth hormone abnormal : 1
+gastritis haemorrhagic : 1
+peritoneal haemorrhage : 1
+renal aneurysm : 1
+infection prophylaxis : 1
+scleral disorder : 1
+electrolyte depletion : 1
+gallbladder perforation : 1
+mesenteric panniculitis : 1
+thyroid adenoma : 1
+meralgia paraesthetica : 1
+aortic rupture : 1
+renal lithiasis prophylaxis : 1
+retinal aneurysm : 1
+body height below normal : 1
+venous pressure increased : 1
+papilloma conjunctival : 1
+renal artery stenosis : 1
+coma scale abnormal : 1
+perivascular dermatitis : 1
+pleural adhesion : 1
+ovarian germ cell teratoma : 1
+arachnoid cyst : 1
+face crushing : 1
+post-traumatic epilepsy : 1
+bladder hypertrophy : 1
+cell death : 1
+endocardial fibrosis : 1
+vaginitis bacterial : 1
+genital herpes : 1
+scleral pigmentation : 1
+head lag : 1
+post ablation tubal ligation syndrome : 1
+gastrointestinal submucosal tumour : 1
+blood creatine phosphokinase mb : 1
+injection site pain : 1
+dysplastic naevus : 1
+cryptococcus test positive : 1
+ejection fraction abnormal : 1
+rhinalgia : 1
+stress fracture : 1
+coagulation time prolonged : 1
+hypertensive cardiomyopathy : 1
+hypertensive nephropathy : 1
+arteriovenous fistula site complication : 1
+muscle enzyme decreased : 1
+drug reaction with eosinophilia and systemic symptoms : 1
+renal tubular acidosis : 1
+inappropriate affect : 1
+parotid gland enlargement : 1
+gonorrhoea : 1
+tinea pedis : 1
+congenital musculoskeletal anomaly : 1
+spinal haematoma : 1
+complication of delivery : 1
+placental disorder : 1
+eyelid vascular disorder : 1
+right ventricular failure : 1
+erdheim-chester disease : 1
+exposure via direct contact : 1
+neovascularisation : 1
+gastrointestinal angiodysplasia : 1
+ophthalmic herpes zoster : 1
+essential tremor : 1
+asthmatic crisis : 1
+lymphatic system neoplasm : 1
+gene mutation identification test positive : 1
+pulmonary tuberculosis : 1
+keratosis pilaris : 1
+norepinephrine decreased : 1
+arterial spasm : 1
+olfactory nerve disorder : 1
+intraocular pressure test : 1
+catabolic state : 1
+salmonella sepsis : 1
+pigmentation lip : 1
+cerumen impaction : 1
+bone abscess : 1
+eyelid bleeding : 1
+hypercoagulation : 1
+purulence : 1
+splenic cyst : 1
+painful ejaculation : 1
+urogenital trichomoniasis : 1
+malocclusion : 1
+constipation prophylaxis : 1
+rectal laceration postoperative : 1
+injection site mass : 1
+impaired self-care : 1
+vomiting psychogenic : 1
+vasopressin challenge test normal : 1
+dentofacial functional disorder : 1
+carcinoid tumour of the gastrointestinal tract : 1
+palindromic rheumatism : 1
+localised intraabdominal fluid collection : 1
+vascular stenosis : 1
+rheumatoid factor quantitative decreased : 1
+sickle cell anaemia : 1
+embolism arterial : 1
+traumatic haemothorax : 1
+aversion : 1
+neuropsychological test abnormal : 1
+product coating issue : 1
+tympanic membrane hyperaemia : 1
+systemic sclerosis : 1
+phantom pain : 1
+thalamus haemorrhage : 1
+protein s deficiency : 1
+alanine aminotransferase abnormal : 1
+gastrointestinal candidiasis : 1
+eosinophilic pneumonia : 1
+genital abscess : 1
+device related infection : 1
+carbon monoxide poisoning : 1
+gastroenteritis eosinophilic : 1
+torticollis : 1
+cerebral thrombosis : 1
+cerebral venous thrombosis : 1
+vulvovaginal erythema : 1
+blood alcohol increased : 1
+bile duct cancer : 1
+splenic varices : 1
+prehypertension : 1
+mesenteritis : 1
+internal injury : 1
+lemierre syndrome : 1
+aspiration pleural cavity abnormal : 1
+nerve stimulation test abnormal : 1
+pancreatitis haemorrhagic : 1
+lacrimal disorder : 1
+hepatitis e : 1
+hepatitis e virus test positive : 1
+pneumococcal infection : 1
+abnormal labour : 1
+sleep talking : 1
+adult t-cell lymphoma/leukaemia : 1
+blood creatine abnormal : 1
+blood folate abnormal : 1
+lung consolidation : 1
+organising pneumonia : 1
+urticaria thermal : 1
+x-ray of pelvis and hip abnormal : 1
+small intestinal ulcer haemorrhage : 1
+pancreatic duct obstruction : 1
+focal nodular hyperplasia : 1
+gross motor delay : 1
+peptic ulcer haemorrhage : 1
+testicular haemorrhage : 1
+craniosynostosis : 1
+generalised non-convulsive epilepsy : 1
+prostatic adenoma : 1
+hydroureter : 1
+pulseless electrical activity : 1
+simplex virus test positive : 1
+blepharopachynsis : 1
+articular calcification : 1
+stab wound : 1
+umbilical hernia : 1
+oral lichen planus : 1
+dysacusis : 1
+procedural haemorrhage : 1
+bronchitis chemical : 1
+iris injury : 1
+endometrial cancer stage iii : 1
+anion gap abnormal : 1
+waldenstrom's macroglobulinaemia : 1
+vaginal cyst : 1
+liposarcoma : 1
+collagen disorder : 1
+pneumonia staphylococcal : 1
+epstein-barr virus test positive : 1
+salivary gland mass : 1
+hypercarotinaemia : 1
+incision site haemorrhage : 1
+gastric antral vascular ectasia : 1
+mitochondrial dna mutation : 1
+postoperative wound infection : 1
+fibula fracture : 1
+device connection issue : 1
+device leakage : 1
+paroxysmal arrhythmia : 1
+vascular fragility : 1
+aeromona infection : 1
+cardiac tamponade : 1
+blood sodium abnormal : 1
+antipsychotic drug level below therapeutic : 1
+urethral haemorrhage : 1
+extraocular muscle paresis : 1
+hepatorenal failure : 1
+palatal disorder : 1
+fungal test positive : 1
+coarctation of the aorta : 1
+capillary fragility : 1
+tracheal oedema : 1
+fuchs' syndrome : 1
+eyelid exfoliation : 1
+pericardial haemorrhage : 1
+prothrombin level abnormal : 1
+echoencephalogram abnormal : 1
+intestinal polyp : 1
+parenteral nutrition : 1
+vulvovaginal injury : 1
+functional residual capacity decreased : 1
+ejaculation delayed : 1
+poliomyelitis : 1
+rabies : 1
+enterovirus infection : 1
+nephropathy toxic : 1
+micturition frequency decreased : 1
+frostbite : 1
+rheumatic disorder : 1
+renal tumour excision : 1
+pancreatic enzyme abnormality : 1
+penile cancer : 1
+henoch-schonlein purpura : 1
+bone scan abnormal : 1
+prothrombin time abnormal : 1
+thyroxine abnormal : 1
+reflexes abnormal : 1
+physical abuse : 1
+halo vision : 1
+general physical condition abnormal : 1
+decubitus ulcer : 1
+peritoneal haematoma : 1
+fallopian tube disorder : 1
+pelvic inflammatory disease : 1
+pancreas transplant rejection : 1
+leg amputation : 1
+benign oesophageal neoplasm : 1
+phonophobia : 1
+aspergillus infection : 1
+alopecia totalis : 1
+disorder of sex development : 1
+white matter lesion : 1
+foetal non-stress test abnormal : 1
+hantavirus pulmonary infection : 1
+blood ph increased : 1
+periventricular leukomalacia : 1
+electroencephalogram : 1
+blood thyroid stimulating hormone abnormal : 1
+congenital hypothyroidism : 1
+postoperative thoracic procedure complication : 1
+mean cell haemoglobin concentration decreased : 1
+lipid metabolism disorder : 1
+escherichia sepsis : 1
+flashback : 1
+internal hernia : 1
+endocarditis : 1
+application site mass : 1
+cellulitis orbital : 1
+parasite tissue specimen test positive : 1
+urinary tract infection staphylococcal : 1
+myelitis : 1
+ventilation/perfusion scan abnormal : 1
+childhood disintegrative disorder : 1
+dyssomnia : 1
+legionella infection : 1
+genital hypoaesthesia : 1
+exposure via ingestion : 1
+klebsiella bacteraemia : 1
+vitamin k increased : 1
+external ear inflammation : 1
+blood folate decreased : 1
+aortic thrombosis : 1
+open angle glaucoma : 1
+blood creatine phosphokinase abnormal : 1
+gastrooesophageal cancer : 1
+neurological decompensation : 1
+prostate examination abnormal : 1
+bilirubin urine : 1
+pulse pressure abnormal : 1
+congenital infection : 1
+excessive dietary fibre intake : 1
+complement factor c3 : 1
+dna antibody positive : 1
+prion agent test positive : 1
+metabolic function test abnormal : 1
+angina bullosa haemorrhagica : 1
+rectal cancer stage iv : 1
+oesophagogastroduodenoscopy abnormal : 1
+glomerular filtration rate abnormal : 1
+ultrasound prostate abnormal : 1
+artery dissection : 1
+oesophageal compression : 1
+violence-related symptom : 1
+cataract operation : 1
+spinal column injury : 1
+peripheral nerve lesion : 1
+fontanelle bulging : 1
+blood antimony increased : 1
+follicular thyroid cancer : 1
+radiation associated pain : 1
+hypophosphataemic rickets : 1
+radius fracture : 1
+ulna fracture : 1
+antibody test positive : 1
+vitamin k deficiency : 1
+corneal irritation : 1
+nail candida : 1
+injection site bruising : 1
+injection site haemorrhage : 1
+wound dehiscence : 1
+urinary bladder polyp : 1
+homicide : 1
+uterine infection : 1
+chronic respiratory disease : 1
+gastroenteritis rotavirus : 1
+amino acid level increased : 1
+platelet morphology abnormal : 1
+asthma exercise induced : 1
+device pacing issue : 1
+hyperproteinaemia : 1
+hepatitis alcoholic : 1
+imaging procedure : 1
+nasal sinus cancer : 1
+eschar : 1
+systolic hypertension : 1
+kyphoscoliosis : 1
+retrograde amnesia : 1
+calcium deficiency : 1
+urodynamics measurement abnormal : 1
+electromyogram abnormal : 1
+pseudomonas test positive : 1
+nuclear magnetic resonance imaging abdominal abnormal : 1
+vesicoureteric reflux : 1
+spontaneous haemorrhage : 1
+blood zinc decreased : 1
+small intestine carcinoma : 1
+respiratory fume inhalation disorder : 1
+blood electrolytes normal : 1
+biopsy pancreas abnormal : 1
+abscess bacterial : 1
+abscess fungal : 1
+mammary duct ectasia : 1
+scan abnormal : 1
+urinary sediment present : 1
+ankyloglossia congenital : 1
+clinodactyly : 1
+frenulum breve : 1
+umbilical cord abnormality : 1
+decreased eye contact : 1
+purging : 1
+vein collapse : 1
+aortic valve incompetence : 1
+paget's disease of nipple : 1
+medical device complication : 1
+iodine uptake increased : 1
+coprolalia : 1
+free prostate-specific antigen increased : 1
+rectal ultrasound abnormal : 1
+pseudoangina : 1
+intra-abdominal pressure increased : 1
+vaginal prolapse : 1
+enterobacter test positive : 1
+generalised anxiety disorder : 1
+maternal exposure during delivery : 1
+premenstrual pain : 1
+ultrasound pelvis abnormal : 1
+open fracture : 1
+larynx irritation : 1
+product solubility abnormal : 1
+scrotal mass : 1
+brca1 gene mutation : 1
+oromandibular dystonia : 1
+paralysis flaccid : 1
+biopsy lung abnormal : 1
+pneumonia lipoid : 1
+hyperaemia : 1
+skin oedema : 1
+scarlet fever : 1
+gingival abscess : 1
+disorganised type : 1
+intervertebral disc calcification : 1
+spinal cord injury cervical : 1
+magnetic resonance cholangiopancreatography : 1
+anaemia of pregnancy : 1
+spinal fusion surgery : 1
+activated partial thromboplastin time shortened : 1
+meningitis viral : 1
+blood immunoglobulin a decreased : 1
+thyroxin binding globulin increased : 1
+biopsy bladder abnormal : 1
+encopresis : 1
+osteonecrosis of jaw : 1
+central nervous system stimulation : 1
+eyelash discolouration : 1
+endoscopy upper gastrointestinal tract abnormal : 1
+human chorionic gonadotropin abnormal : 1
+amylase : 1
+hepatitis e antibody positive : 1
+hla marker study positive : 1
+electrocardiogram qt shortened : 1
+electrocardiogram st segment depression : 1
+dystonic tremor : 1
+biliary cirrhosis : 1
+renal infarct : 1
+acromegaly : 1
+blood corticotrophin increased : 1
+female sex hormone level abnormal : 1
+carditis : 1
+electrocardiogram qrs complex abnormal : 1
+hilar lymphadenopathy : 1
+csf oligoclonal band present : 1
+lymphocyte morphology abnormal : 1
+upper respiratory tract irritation : 1
+reaction to food colouring : 1
+intraductal proliferative breast lesion : 1
+synovial rupture : 1
+diverticulum intestinal haemorrhagic : 1
+olfactory : 1
+middle ear effusion : 1
+tendon calcification : 1
+herpes zoster infection neurological : 1
+myolipoma : 1
+local reaction : 1
+tilt table test positive : 1
+radiculopathy : 1
+thought insertion : 1
+constricted affect : 1
+dementia with lewy bodies : 1
+anisocytosis : 1
+biopsy bile duct abnormal : 1
+neutrophil function disorder : 1
+renal vein thrombosis : 1
+non-small cell lung cancer : 1
+blood immunoglobulin m decreased : 1
+parvovirus infection : 1
+plasma cell disorder : 1
+gastric hypermotility : 1
+blood electrolytes increased : 1
+epiglottitis : 1
+mean platelet volume decreased : 1
+spasmodic dysphonia : 1
+tendinous contracture : 1
+haptoglobin decreased : 1
+gastrointestinal stoma complication : 1
+melanosis : 1
+holmes-adie pupil : 1
+eyelid boil : 1
+eyelid cyst : 1
+deafness bilateral : 1
+mucormycosis : 1
+amaurosis : 1
+social phobia : 1
+morbid thoughts : 1
+acoustic neuroma : 1
+eustachian tube obstruction : 1
+hyphaema : 1
+hypergammaglobulinaemia benign monoclonal : 1
+graft versus host disease : 1
+binge eating : 1
+scrotal irritation : 1
+fear of falling : 1
+loose body in joint : 1
+normal pressure hydrocephalus : 1
+benign breast neoplasm : 1
+oesophageal food impaction : 1
+total cholesterol/hdl ratio decreased : 1
+schamberg's disease : 1
+transferrin decreased : 1
+nerve root injury : 1
+blood lactic acid : 1
+blood creatinine abnormal : 1
+vector-borne transmission of infection : 1
+zoonosis : 1
+apocrine miliaria : 1
+joint warmth : 1
+dermatillomania : 1
+ventricular internal diameter abnormal : 1
+allergic oedema : 1
+apgar score abnormal : 1
+electromechanical dissociation : 1
+urethral perforation : 1
+hepatobiliary disease : 1
+application site erythema : 1
+urobilinogen faeces increased : 1
+lower extremity mass : 1
+abnormal clotting factor : 1
+maternal condition affecting foetus : 1
+petroleum distillate poisoning : 1
+dyspnoea at rest : 1
+soft tissue haemorrhage : 1
+bronchostenosis : 1
+biopsy urethra abnormal : 1
+injection site abscess : 1
+transitional cell carcinoma : 1
+congenital coronary artery malformation : 1
+blood albumin abnormal : 1
+mixed incontinence : 1
+arterial stent insertion : 1
+blood immunoglobulin g decreased : 1
+lipids : 1
+external ear disorder : 1
+respiratory moniliasis : 1
+blood amylase decreased : 1
+bronchitis bacterial : 1
+breast cancer stage iv : 1
+metastases to lung : 1
+blood cortisol abnormal : 1
+blood galactose increased : 1
+thoracic vertebral fracture : 1
+blood 25-hydroxycholecalciferol increased : 1
+soft tissue mass : 1
+gallbladder enlargement : 1
+malignant neoplasm progression : 1
+urine amino acid level increased : 1
+pancreatic necrosis : 1
+rheumatoid factor quantitative increased : 1
+body dysmorphic disorder : 1
+blood cannabinoids : 1
+therapeutic response decreased : 1
+dacryostenosis congenital : 1
+bronchioloalveolar carcinoma : 1
+budd-chiari syndrome : 1
+humerus fracture : 1
+vitamin b1 deficiency : 1
+pus in stool : 1
+mechanical ventilation : 1
+depressive symptom : 1
+epiglottis ulcer : 1
+masked facies : 1
+iron binding capacity total increased : 1
+limb crushing injury : 1
+porphyria acute : 1
+white blood cells stool positive : 1
+gamma-glutamyltransferase decreased : 1
+ph urine decreased : 1
+anovulatory cycle : 1
+ketonuria : 1
+renal artery arteriosclerosis : 1
+uterine enlargement : 1
+blood triglycerides : 1
+blood insulin : 1
+metastases to ovary : 1
+pituitary tumour benign : 1
+albumin globulin ratio decreased : 1
+albumin globulin ratio increased : 1
+globulin abnormal : 1
+angiomyolipoma : 1
+acid fast bacilli infection : 1
+pulmonary arterial pressure abnormal : 1
+multiple system atrophy : 1
+microalbuminuria : 1
+drug dispensing error : 1
+multiple myeloma : 1
+colon cancer metastatic : 1
+antidepressant drug level increased : 1
+ulcerative keratitis : 1
+vulva cyst : 1
+calculus prostatic : 1
+enlarged clitoris : 1
+therapeutic response increased : 1
+electrolysis therapy : 1
+renal function test normal : 1
+oesophagogastric fundoplasty : 1
+antiviral prophylaxis : 1
+electrocardiogram poor r-wave progression : 1
+electrocardiogram q waves : 1
+contracted bladder : 1
+adrenergic syndrome : 1
+faecal vomiting : 1
+micrographic skin surgery : 1
+fractured coccyx : 1
+rectocele : 1
+corneal transplant : 1
+endotracheal intubation complication : 1
+joint dislocation postoperative : 1
+eye laser surgery : 1
+cast application : 1
+wrist surgery : 1
+cardiac procedure complication : 1
+limb operation : 1
+vulval cancer : 1
+rosai-dorfman syndrome : 1
+cerebral haematoma : 1
+postoperative thrombosis : 1
+procedural complication : 1
+trigger finger : 1
+benign lymph node neoplasm : 1
+hernia pain : 1
+gastrointestinal fungal infection : 1
+gastrointestinal tract adenoma : 1
+pharyngeal abscess : 1
+nosocomial infection : 1
+bacteria urine : 1
+haematocrit abnormal : 1
+genital infection bacterial : 1
+cd4 lymphocytes decreased : 1
+pancreatectomy : 1
+blood count : 1
+radial pulse abnormal : 1
+abdominal compartment syndrome : 1
+folate deficiency : 1
+heart transplant rejection : 1
+insulin resistance syndrome : 1
+ileostomy : 1
+tonsillectomy : 1
+gastrointestinal surgery : 1
+lymphangitis : 1
+fine motor delay : 1
+chorioretinopathy : 1
+myoclonic epilepsy : 1
+implant site infection : 1
+mycobacterium fortuitum infection : 1
+obstructed labour : 1
+birth trauma : 1
+skull malformation : 1
+qrs axis abnormal : 1
+breast calcifications : 1
+haemarthrosis : 1
+tenosynovitis : 1
+ultrasound doppler abnormal : 1
+cardiac pacemaker malfunction : 1
+cerebrospinal fluid retention : 1
+penis injury : 1
+haemoglobin : 1
+vaginal inflammation : 1
+forceps delivery : 1
+verbal abuse : 1
+citric acid urine decreased : 1
+analgesic therapy : 1
+electrocardiogram p wave abnormal : 1
+gonadal dysgenesis : 1
+libido disorder : 1
+peliosis hepatis : 1
+transaminases : 1
+vascular purpura : 1
+oesophageal hypomotility : 1
+chronotropic incompetence : 1
+acquired cardiac septal defect : 1
+idiopathic thrombocytopenic purpura : 1
+neck deformity : 1
+glucose urine : 1
+induced labour : 1
+akinesia : 1
+right ventricular dysfunction : 1
+right ventricular systolic pressure decreased : 1
+wound infection staphylococcal : 1
+mean cell haemoglobin decreased : 1
+mean cell volume decreased : 1
+arrhythmia supraventricular : 1
+cardiac assistance device user : 1
+red cell distribution width decreased : 1
+transurethral prostatectomy : 1
+lacrimation decreased : 1
+buccal mucosal roughening : 1
+cryptogenic cirrhosis : 1
+labile hypertension : 1
+somatosensory evoked potentials abnormal : 1
+ph urine abnormal : 1
+sudden cardiac death : 1
+corneal infection : 1
+creatine urine decreased : 1
+retinal exudates : 1
+complement factor c3 decreased : 1
+complement factor c4 decreased : 1
+mycoplasma serology positive : 1
+basophil percentage increased : 1
+labelled drug-drug interaction medication error : 1
+stent malapposition : 1
+spinal operation : 1
+toe amputation : 1
+vascular insufficiency : 1
+bone density increased : 1
+drug rehabilitation : 1
+compulsive lip biting : 1
+pelvic floor dyssynergia : 1
+viral haemorrhagic cystitis : 1
+fluid intake reduced : 1
+total cholesterol/hdl ratio increased : 1
+urine leukocyte esterase : 1
+eyelid function disorder : 1
+muscle necrosis : 1
+perforated ulcer : 1
+exaggerated startle response : 1
+analgesic drug level increased : 1
+nasal disorder : 1
+addison's disease : 1
+laparoscopy : 1
+photosensitivity allergic reaction : 1
+barium swallow abnormal : 1
+urethral meatus stenosis : 1
+chondrocalcinosis : 1
+shoulder arthroplasty : 1
+complication of device removal : 1
+occupational exposure to drug : 1
+intraductal papilloma of breast : 1
+long qt syndrome : 1
+bone development abnormal : 1
+plasma cells present : 1
+speech disorder developmental : 1
+labile blood pressure : 1
+blood test normal : 1
+gun shot wound : 1
+bowen's disease : 1
+blood ketone body decreased : 1
+glioblastoma multiforme : 1
+fontanelle depressed : 1
+myoglobin urine present : 1
+blood albumin normal : 1
+electrocardiogram pr prolongation : 1
+international normalised ratio : 1
+blood hiv rna increased : 1
+vagus nerve disorder : 1
+ubiquinone decreased : 1
+arterial therapeutic procedure : 1
+stress cardiomyopathy : 1
+colon cancer recurrent : 1
+biliary dyskinesia : 1
+cardiac monitoring normal : 1
+hiv infection : 1
+heart valve replacement : 1
+extraocular muscle disorder : 1
+syndactyly : 1
+venous oxygen saturation decreased : 1
+anastomotic ulcer : 1
+bladder neck obstruction : 1
+inhibitory drug interaction : 1
+benign salivary gland neoplasm : 1
+interferon alpha level increased : 1
+bone operation : 1
+substance abuser : 1
+eclampsia : 1
+ludwig angina : 1
+pharyngeal lesion : 1
+radioallergosorbent test positive : 1
+intra-uterine death : 1
+bacterial culture positive : 1
+catheter thrombosis : 1
+femoral nerve injury : 1
+respiratory tract haemorrhage : 1
+haemorrhagic infarction : 1
+small intestinal stenosis : 1
+intestinal infarction : 1
+abdominal strangulated hernia : 1
+sleep attacks : 1
+cardio-respiratory arrest neonatal : 1
+blood aluminium abnormal : 1
+ureteral stent insertion : 1
+lung infiltration malignant : 1
+reexpansion pulmonary oedema : 1
+bronchial hyperreactivity : 1
+congenital hyperextension of spine : 1
+tumour marker increased : 1
+cardiac function test abnormal : 1
+refraction disorder : 1
+periodontitis : 1
+sleep inertia : 1
+gastrointestinal tube insertion : 1
+urobilin urine : 1
+paraparesis : 1
+ototoxicity : 1
+chondrocalcinosis pyrophosphate : 1
+oestradiol increased : 1
+polymyositis : 1
+urticaria chronic : 1
+undersensing : 1
+groin abscess : 1
+nephritis interstitial : 1
+thrombotic microangiopathy : 1
+reiter's syndrome : 1
+azotaemia : 1
+muscular dystrophy : 1
+pneumocystis jiroveci infection : 1
+facial wasting : 1
+persistent generalised lymphadenopathy : 1
+waist circumference increased : 1
+aldolase increased : 1
+clamping of blood vessel : 1
+nasal polyps : 1
+pituitary tumour : 1
+post-traumatic pain : 1
+cartilage development disorder : 1
+ear deformity acquired : 1
+vessel puncture site haematoma : 1
+fat necrosis : 1
+necrotising oesophagitis : 1
+oesophageal ulcer perforation : 1
+retinopexy : 1
+viral pharyngitis : 1
+semen discolouration : 1
+blood lead abnormal : 1
+blood gonadotrophin increased : 1
+vaginismus : 1
+uterine injury : 1
+teething : 1
+poor sucking reflex : 1
+pancreatic injury : 1
+laryngeal inflammation : 1
+food aversion : 1
+heat illness : 1
+fasciitis : 1
+external ear pain : 1
+haemangioma of liver : 1
+vena cava injury : 1
+slow virus infection : 1
+hemicephalalgia : 1
+tongue black hairy : 1
+menstrual cycle management : 1
+benign mesothelioma : 1
+csf pressure abnormal : 1
+breast fibrosis : 1
+atrial conduction time prolongation : 1
+androgen deficiency : 1
+breath alcohol test positive : 1
+lens disorder : 1
+haemothorax : 1
+urine amylase abnormal : 1
+cross sensitivity reaction : 1
+hepatitis c antibody : 1
+ureterocele : 1
+adenoidectomy : 1
+ear tube insertion : 1
+anaesthetic complication : 1
+biopsy blood vessel abnormal : 1
+social problem : 1
+nasal inflammation : 1
+viith nerve injury : 1
+gram stain negative : 1
+alcohol intolerance : 1
+amniorrhexis : 1
+epstein-barr virus antigen positive : 1
+blood lactate dehydrogenase decreased : 1
+thoracic outlet syndrome : 1
+onychophagia : 1
+peritonsillar abscess : 1
+gravitational oedema : 1
+ewing's sarcoma : 1
+juvenile arthritis : 1
+rheumatoid factor : 1
+hemianopia : 1
+connective tissue disorder : 1
+peyronie's disease : 1
+mediastinal disorder : 1
+cardiac infection : 1
+hypospadias : 1
+limbal swelling : 1
+cerebral aneurysm ruptured syphilitic : 1
+pseudomembranous colitis : 1
+orthodontic appliance complication : 1
+increased insulin requirement : 1
+amnestic disorder : 1
+stenotrophomonas infection : 1
+conduction disorder : 1
+anti-gad antibody positive : 1
+haemoglobinaemia : 1
+dermatophytosis : 1
+mixed hyperlipidaemia : 1
+ureteral disorder : 1
+delayed recovery from anaesthesia : 1
+bleeding peripartum : 1
+proctocolitis : 1
+sebaceous gland disorder : 1
+carbohydrate antigen 125 increased : 1
+trance : 1
+infantile apnoeic attack : 1
+platelet function test abnormal : 1
+anal injury : 1
+anal sphincter atony : 1
+lymph nodes scan abnormal : 1
+corrective lens user : 1
+infection protozoal : 1
+prostate cancer recurrent : 1
+senile dementia : 1
+parathyroid tumour malignant : 1
+lipohypertrophy : 1
+fluid replacement : 1
+oedema genital : 1
+neoplasm prostate : 1
+ovarian fibroma : 1
+cutaneous contour deformity : 1
+blood selenium : 1
+kwashiorkor : 1
+vasodilation procedure : 1
+skin nodule : 1
+pulmonary granuloma : 1
+coagulation time shortened : 1
+procedural site reaction : 1
+renal tubular disorder : 1
+benign neoplasm of thyroid gland : 1
+weight decrease neonatal : 1
+somatoform disorder : 1
+retinal neovascularisation : 1
+face presentation : 1
+adjustment disorder : 1
+dyspnoea paroxysmal nocturnal : 1
+mental disorder due to a general medical condition : 1
+genital burning sensation : 1
+peripheral ischaemia : 1
+mean cell volume abnormal : 1
+inflammatory carcinoma of the breast : 1
+postictal paralysis : 1
+quadriparesis : 1
+metastases to kidney : 1
+ph urine increased : 1
+slipping rib syndrome : 1
+fat redistribution : 1
+secondary adrenocortical insufficiency : 1
+pharyngolaryngeal discomfort : 1
+blood follicle stimulating hormone decreased : 1
+denervation atrophy : 1
+mitochondrial encephalomyopathy : 1
+myopathy toxic : 1
+endometrial hypertrophy : 1
+joint lock : 1
+bronchial wall thickening : 1
+forced expiratory volume decreased : 1
+dental implantation : 1
+increased viscosity of bronchial secretion : 1
+learning disability : 1
+surgical vascular shunt : 1
+phlebothrombosis : 1
+urticaria physical : 1
+corneal ulcer : 1
+chest x-ray : 1
+antipsychotic drug level above therapeutic : 1
+parathyroid gland enlargement : 1
+blood zinc : 1
+excitability : 1
+endoscopy upper gastrointestinal tract : 1
+red blood cell sedimentation rate abnormal : 1
+bacteria blood identified : 1
+electrocardiogram st segment : 1
+intercostal retraction : 1
+oesophagogastroduodenoscopy : 1
+endocarditis enterococcal : 1
+gastroenteritis proteus : 1
+serratia infection : 1
+poverty of thought content : 1
+analgesic effect : 1
+brain stem syndrome : 1
+sleep walking : 1
+gastroenteritis shigella : 1
+full blood count : 1
+thyroxine free decreased : 1
+bowel sounds abnormal : 1
+eyelash thickening : 1
+apallic syndrome : 1
+eye penetration : 1
+osteitis : 1
+anti-thyroid antibody : 1
+hereditary cerebral degeneration : 1
+feeling hot and cold : 1
+small intestine ulcer : 1
+mental retardation severity unspecified : 1
+shoulder pain : 1
+cestode infection : 1
+drug level : 1
+accidental needle stick : 1
+laryngeal pain : 1
+action tremor : 1
+fluid imbalance : 1
+basophil count decreased : 1
+eosinophil count abnormal : 1
+persecutory delusion : 1
+episcleritis : 1
+nail hypertrophy : 1
+lymphadenectomy : 1
+myeloid metaplasia : 1
+bile duct obstruction due to calculus : 1
+hepatic atrophy : 1
+pco2 abnormal : 1
+gastric outlet obstruction : 1
+feelings of worthlessness : 1
+skin test : 1
+extubation : 1
+risus sardonicus : 1
+overwork : 1
+uterine spasm : 1
+buttock pain : 1
+corneal scar : 1
+pharynx discomfort : 1
+gastrointestinal stromal tumour : 1
+meige's syndrome : 1
+abortion spontaneous complicated : 1
+foetal heart rate abnormal : 1
+artificial crown procedure : 1
+atherosclerosis : 1
+bladder catheter temporary : 1
+bronchial oedema : 1
+genital pruritus female : 1
+thyrotoxicosis : 1
+bone densitometry : 1
+gingival blister : 1
+telangiectasia : 1
+steroid therapy : 1
+hand dermatitis : 1
+argyria : 1
+thrombocytopenic purpura : 1
+application site bruising : 1
+halitosis : 1
+intestinal spasm : 1
+injury asphyxiation : 1
+denture wearer : 1
+erythropenia : 1
+vaginal polyp : 1
+physiotherapy : 1
+systemic antibacterial therapy : 1
+application site desquamation : 1
+testicular retraction : 1
+urticaria generalised : 1
+vaginal mycosis : 1
+ventricular dysfunction : 1
+endometrial cancer stage ii : 1
+urine analysis normal : 1
+autopsy : 1
+cleft lip : 1
+congenital torticollis : 1
+feeding problem in newborn : 1
+foetal movements decreased : 1
+plagiocephaly : 1
+inflammation localised : 1
+creatinine renal clearance increased : 1
+laparoscopic surgery : 1
+jarisch-herxheimer reaction : 1
+arteriogram abnormal : 1
+cardiac rehabilitation therapy : 1
+nail bed tenderness : 1
+arterial injury : 1
+carotid artery dissection : 1
+hyperphosphataemia : 1
+oedema mucosal : 1
+mass excision : 1
+morose : 1
+uterine dilation and curettage : 1
+gastrointestinal examination : 1
+wound debridement : 1
+mucosal discolouration : 1
+coronary artery embolism : 1
+coronary artery surgery : 1
