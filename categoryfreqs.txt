@@ -1,0 +1,40 @@
+Vit/Min/Prot/Unconv Diet(Human/Animal) : 1378
+Cosmetics : 866
+Vegetables/Vegetable Products : 188
+Bakery Prod/Dough/Mix/Icing : 89
+Powder Formula : 88
+Candy W/O Choc/Special/Chew Gum : 87
+Nuts/Edible Seed : 74
+Dietary Conventional Foods/Meal Replacements : 73
+Mult Food Dinner/Grav/Sauce/Special : 72
+Fruit/Fruit Prod : 66
+Soft Drink/Water : 64
+Fishery/Seafood Prod : 45
+Snack Food Item : 40
+Milk/Butter/Dried Milk Prod : 35
+Cereal Prep/Breakfast Food : 33
+Choc/Cocoa Prod : 26
+Ice Cream Prod : 22
+Food Additives (Human Use) : 19
+Spices, Flavors And Salts : 19
+Dressing/Condiment : 19
+Whole Grain/Milled Grain Prod/Starch : 16
+Baby Food Products : 15
+Food Sweeteners (Nutritive) : 14
+Prep Salad Prod : 13
+Soup : 12
+Coffee/Tea : 11
+Filled Milk/Imit Milk Prod : 11
+Cheese/Cheese Prod : 9
+Vegetable Protein Prod : 9
+Alcoholic Beverage : 7
+Beverage Bases/Conc/Nectar : 7
+Meat, Meat Products and Poultry : 5
+Egg/Egg Prod : 5
+Macaroni/Noodle Prod : 5
+Liquid Concentrate Formula : 5
+Color Additiv Food/Drug/Cosmetic : 4
+Ready to Serve Formula : 4
+Medical Foods, N.E.C. : 4
+Miscellaneous Food Related Items : 1
+Gelatin/Rennet/Pudding Mix/Pie Filling : 1

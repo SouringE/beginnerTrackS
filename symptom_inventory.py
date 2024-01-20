@@ -10,30 +10,34 @@ Returns a new dataframe containing only the data containing a particular term in
 the given column
 Inputs: df, the dataframe you want to create a sub-df of
         col_name, a String for the name of the column you're looking through
-        term, a String for the keyword term you're looking for
-        equal, a boolean representing whether you want the term to just be equal to the value in
+        terms, a list containing Strings for the keyword terms you're looking for
+        equal, a boolean representing whether you want the terms to just be equal to the value in
             the column or just be contained within it
         include, a boolean representing whether you want to include values containing the
-            term or exclude them
+            terms or exclude them
 Outputs: The new sub-dataframe fitting the criteria
 """
-def df_subset(df, col_name, term, equal, include):
-    if include:
-        if equal: 
-            new_df = df[df[col_name] == term]
+def df_subset(df, col_name, terms, equal, include):
+    new_df = df.copy()
+    for term in terms:
+        if include:
+            if equal: 
+                new_df = new_df[new_df[col_name] == term]
+            else: 
+                new_df = new_df[new_df[col_name].str.contains(term)]
+                
         else: 
-            new_df = df[df[col_name].str.contains(term)]
-            
-    else: 
-        if equal: 
-            new_df = df[df[col_name] != term]
-        else:
-            new_df = df[not df[col_name].str.contains(term)]
-    new_df.reset_index(drop = True, inplace = True)
-    return new_df
+            if equal: 
+                new_df = new_df[new_df[col_name] != term]
+            else:
+                new_df = new_df[not new_df[col_name].str.contains(term)]
+        new_df.reset_index(drop = True, inplace = True)
+        return new_df
 
-df = df_subset(df, "PRODUCT_TYPE", "SUSPECT", True, True)
-df = df_subset(df, "PRODUCT", "EXEMPTION 4", True, False)
+df = df_subset(df, "PRODUCT_TYPE", ["SUSPECT"], True, True)
+df = df_subset(df, "PRODUCT", ["EXEMPTION 4"], True, False)
+df = df_subset(df, "REPORT_ID", ["2023"], False, True)
+df = df_subset(df, "REPORT_ID", ["2023"], False, True)
 
 
 """
@@ -42,13 +46,18 @@ of the CSV experience those symptoms.
 Inputs: Any dataframe you want to find symptom prevalence in
 Outputs: The prevalence dictionary
 """
-def symptom_prevalence(df):
-    symptom_df = df['CASE_MEDDRA_PREFERRED_TERMS']
+def symptom_prevalence(df, column="CASE_MEDDRA_PREFERRED_TERMS", split=True, delim=", "):
+    symptom_df = df[column]
     symptom_prev = defaultdict(list)
     for case_idx in range(len(symptom_df)): 
-        sym_list = [x.lower() for x in symptom_df[case_idx].split(", ")]
-        for symptom in sym_list:
-            symptom_prev[symptom].append(case_idx)
+        if split:
+            sym_list = [x.lower() for x in symptom_df[case_idx].split(delim)]
+            for symptom in sym_list:
+                symptom_prev[symptom].append(case_idx)
+        else: 
+            sym = symptom_df[case_idx]
+            symptom_prev[sym].append(case_idx)
+        
     return dict(symptom_prev)
 
 """
@@ -65,7 +74,9 @@ def dict_sort(input_dict, filename):
     sorted_freqs = dict(sorted(freq_dict.items(), key=lambda item: item[1], reverse = True))
     # writes the dictionary sorted in decreasing order of frequency to the given filename
     with open(filename, 'w') as f:
-        f.write(str(sorted_freqs))
+        for freq in sorted_freqs:
+            line = freq + " : " + str(sorted_freqs[freq]) + "\n"
+            f.write(line)
     return sorted_freqs
 
 """
@@ -113,13 +124,30 @@ dict_sort(symptom_p, "symptomfreq.txt")
 symptom_categorizer(df, symptom_p, 'symptomlist.txt')
 
 # symptom frequency for just cosmetic products
-cosmetics = df_subset(df, "PRODUCT_CODE", "53", True, True)
+cosmetics = df_subset(df, "PRODUCT_CODE", ["53"], True, True)
 symptoms_53 = symptom_prevalence(cosmetics)
 dict_sort(symptoms_53, "cosmeticsymptoms.txt")
+#print(cosmetics)
 
 # symptom frequency for just vitamins
-vitamins = df_subset(df, "PRODUCT_CODE", "54", True, True)
+vitamins = df_subset(df, "PRODUCT_CODE", ["54"], True, True)
 symptoms_54 = symptom_prevalence(vitamins)
 dict_sort(symptoms_54, "vitaminsymptoms.txt")
 
 #symptom_types = ["cardiac" : ]
+
+#word_freq = df.DESCRIPTION.str.split(expand = True).stack().value_counts()
+#print(word_freq)
+category_types = symptom_prevalence(df, "DESCRIPTION", False, None)
+dict_sort(category_types, "categoryfreqs.txt")
+
+# category_nums = {}
+# for category in category_types:
+#     print(category)
+#     only_this_cat = df_subset(df, ["DESCRIPTION"], category, True, True)
+#     print(only_this_cat)
+#     num = only_this_cat.at[0, "PRODUCT_CODE"]
+#     print(num)
+#     category_nums[category] = num
+
+# print(category_nums)
