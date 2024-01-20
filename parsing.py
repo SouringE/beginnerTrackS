@@ -13,5 +13,8 @@ word_freq.to_csv('wordFreq.csv')
 #straw = med_case['PRODUCT'].str.contains('strawb')
 women_data = med_case[med_case['SEX'].str.startswith("Male") == False]
 women_data = women_data[women_data['SEX'].str.startswith("Unknown") == False]
-women_data.to_csv('women_data.csv')
+male_data = med_case[med_case['SEX'].str.startswith("Female") == False]
+male_data = male_data[male_data['SEX'].str.startswith("Unknown") == False]
+women_data.to_csv('female_data.csv')
+male_data.to_csv('male_data.csv')
 
