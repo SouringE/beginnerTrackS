@@ -1,0 +1,94 @@
+---
+title: "datathon"
+output: html_document
+date: "2024-01-20"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r}
+data <- read.csv("~/Desktop/stat405/CAERS_ProductBased.csv", header = T)
+vitamins <- data$PRODUCT_CODE == 54
+vitamins <- which(vitamins==T)
+vitamins <- data[c(vitamins),]
+```
+
+```{r}
+age1 <- vitamins$AGE_UNITS == "year(s)"
+age <- vitamins$PATIENT_AGE[which(age1==T)]
+age <- summary(age)
+age
+```
+
+
+```{r}
+cancer <- data$PRODUCT == "EXEMPTION 4"
+cancer <- which(cancer==T)
+cancer <- data[c(cancer),]
+write.csv(cancer, file = "exemption4.csv")
+cancer$CASE_MEDDRA_PREFERRED_TERMS <- tolower(cancer$CASE_MEDDRA_PREFERRED_TERMS)
+cancer1 <- grep("ovarian cancer", cancer$CASE_MEDDRA_PREFERRED_TERMS, fixed = T)
+cancer1 <- cancer[c(cancer1),]
+```
+
+
+```{r}
+data$PRODUCT <- tolower(data$PRODUCT)
+strawb <- grep("strawb", data$PRODUCT , fixed = T)
+strawb <- data[c(strawb),]
+```
+
+
+
+
+```{r}
+prodfreq <- as.factor(data$PRODUCT_CODE)
+plot(prodfreq)
+```
+
+
+```{r}
+bigfreq <- data$PRODUCT_CODE == 53
+bigfrq <- which(bigfreq==T)
+
+bigfreq2 <- data$PRODUCT_CODE == 54
+bigfreq2 <- which(bigfreq2==T)
+
+bigfrqs <- c(bigfrq,bigfreq2)
+bigfrqs <- data[c(bigfrqs),]
+write.csv(bigfrqs, file = "53,54productcode.csv")
+```
+
+
+```{r}
+ageunits <- as.factor(data$AGE_UNITS)
+summary(ageunits)
+```
+
+```{r}
+for (i in 1:length(data$AGE_UNITS)){
+  if (data$AGE_UNITS[i] == "day(s)") {
+    data$PATIENT_AGE[i] <- data$PATIENT_AGE[i] / 365
+    data$AGE_UNITS[i] <- "year(s)"
+  }
+  if (data$AGE_UNITS[i] == "decade(s)") {
+    data$PATIENT_AGE[i] <- data$PATIENT_AGE[i] * 10
+        data$AGE_UNITS[i] <- "year(s)"
+
+  }
+  if (data$AGE_UNITS[i] == "month") {
+    data$PATIENT_AGE[i] <- data$PATIENT_AGE[i] / 12
+        data$AGE_UNITS[i] <- "year(s)"
+
+  }
+  if (data$AGE_UNITS[i] == "week(s)") {
+    data$PATIENT_AGE[i] <- data$PATIENT_AGE[i] / 52
+        data$AGE_UNITS[i] <- "year(s)"
+
+  }
+  }
+```
+
