@@ -19,8 +19,9 @@ Inputs: df, the dataframe you want to create a sub-df of
 Outputs: The new sub-dataframe fitting the criteria
 """
 def df_subset(df, col_name, terms, equal, include, operator_fxn=operator.eq, contain_type=None):
-    new_df = df.copy()
+    new_dfs = []
     for term in terms:
+        new_df = df.copy()
         if equal:
             if include:
                 new_df = new_df[operator_fxn(new_df[col_name], term)]
@@ -42,13 +43,17 @@ def df_subset(df, col_name, terms, equal, include, operator_fxn=operator.eq, con
                 new_df = new_df[not new_df[col_name].str.startswith(term)]
             else:
                 new_df = new_df[not new_df[col_name].str.contains(term)]
-        new_df.reset_index(drop = True, inplace = True)
-        return new_df
+        #print(new_df)
+        new_dfs.append(new_df)
+    final_df = pd.concat(new_dfs)
+    final_df.reset_index(drop = True, inplace = True)
+    return final_df
 
 df = df_subset(df, "PRODUCT_TYPE", ["SUSPECT"], True, True)
 #df = df_subset(df, "SEX", ["Female"], True, True)
 df = df_subset(df, "PRODUCT", ["EXEMPTION 4"], True, False)
 #df = df_subset(df, "DATE_FDA_FIRST_RECEIVED_REPORT", ["23"], False, True, contain_type="ends")
+print(df)
 
 
 """
