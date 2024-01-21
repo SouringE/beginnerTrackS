@@ -1,5 +1,6 @@
 import pandas as pd
 from collections import defaultdict
+import operator
 df = pd.read_csv("CAERS_ProductBased.csv")
 df = df.dropna(axis=1, how="all")
 
@@ -17,26 +18,37 @@ Inputs: df, the dataframe you want to create a sub-df of
             terms or exclude them
 Outputs: The new sub-dataframe fitting the criteria
 """
-def df_subset(df, col_name, terms, equal, include):
+def df_subset(df, col_name, terms, equal, include, operator_fxn=operator.eq, contain_type=None):
     new_df = df.copy()
     for term in terms:
-        if include:
-            if equal: 
-                new_df = new_df[new_df[col_name] == term]
-            else: 
-                new_df = new_df[new_df[col_name].str.contains(term)]
-                
+        if equal:
+            if include:
+                new_df = new_df[operator_fxn(new_df[col_name], term)]
+            else:
+                operator_fxn = operator.ne
+                #print(operator_fxn(new_df[col_name], term))
+                new_df = new_df[operator_fxn(new_df[col_name], term)]
+        elif include:
+            if contain_type == "ends":
+                new_df = new_df[new_df[col_name].str.endswith(term)]
+            elif contain_type == "starts":
+                new_df = new_df[new_df[col_name].str.startswith(term)]
+            else:
+                new_df = new_df[new_df[col_name].str.contains(term)]     
         else: 
-            if equal: 
-                new_df = new_df[new_df[col_name] != term]
+            if contain_type == "ends":
+                new_df = new_df[not new_df[col_name].str.endswith(term)]
+            elif contain_type == "starts":
+                new_df = new_df[not new_df[col_name].str.startswith(term)]
             else:
                 new_df = new_df[not new_df[col_name].str.contains(term)]
         new_df.reset_index(drop = True, inplace = True)
         return new_df
 
 df = df_subset(df, "PRODUCT_TYPE", ["SUSPECT"], True, True)
+#df = df_subset(df, "SEX", ["Female"], True, True)
 df = df_subset(df, "PRODUCT", ["EXEMPTION 4"], True, False)
-#df = df_subset(df, "REPORT_ID", ["2023"], False, True)
+#df = df_subset(df, "DATE_FDA_FIRST_RECEIVED_REPORT", ["23"], False, True, contain_type="ends")
 
 
 """
@@ -66,18 +78,19 @@ Input: input_dict, the dictionary returned by calling symptom_prevalence on the 
         filename, name of the file you want to print the dictionary to
 Outputs: Returns the sorted dictionary and writes it to filename
 """
-def dict_sort(input_dict, filename, header=None):      
+def dict_sort(input_dict, filename=None, file=True, header=None):      
     freq_dict = {}
     for item in input_dict:
         freq_dict[item] = len(input_dict[item])
     sorted_freqs = dict(sorted(freq_dict.items(), key=lambda item: item[1], reverse = True))
     # writes the dictionary sorted in decreasing order of frequency to the given filename
-    with open(filename, 'w') as f:
-        if header != None:
-            f.write(header + "\n\n")
-        for freq in sorted_freqs:
-            line = freq + " : " + str(sorted_freqs[freq]) + "\n"
-            f.write(line)
+    if file:
+        with open(filename, 'w') as f:
+            if header != None:
+                f.write(header + "\n\n")
+            for freq in sorted_freqs:
+                line = freq + " : " + str(sorted_freqs[freq]) + "\n"
+                f.write(line)
     return sorted_freqs
 
 """
@@ -89,14 +102,14 @@ Input: df, the dataframe to perform the categorization on
         filename, the name of the file to write the dictionary to
 Output: A dictionary mapping symptoms to a mapping of categories to prevalence.
 """
-def symptom_categorizer(df, symptom_p, filename):
+def symptom_categorizer(df, symptom_p, filename, col_name='PRODUCT_CODE'):
     symptom_cats = defaultdict(list) 
 
     for symp in symptom_p:
         cases = symptom_p[symp]
         cat_matches = defaultdict(list)
         for case in cases:
-            cat = df['PRODUCT_CODE'][case]
+            cat = df[col_name][case]
             case_num = df['REPORT_ID'][case]
             #print(case_num)
             if case_num not in cat_matches[cat]:
@@ -105,7 +118,7 @@ def symptom_categorizer(df, symptom_p, filename):
         for cat in cat_matches:
             cat_lengths[cat] = len(cat_matches[cat])
         #symptom_cats[symp] = dict(cat_matches) --- For if you want a list of all case IDs instead of number of cases
-        symptom_cats[symp] = dict(cat_lengths)
+        symptom_cats[symp] = dict(sorted(dict(cat_lengths).items(), key=lambda item: item[1], reverse = True))
    
     # prints out the contents of the symptoms dictionary to a file titled symptomlist.txt
     with open(filename, 'w') as f:
@@ -179,3 +192,45 @@ for category in category_names:
     # category_nums[category] = num
 
 # print(category_nums)
+    
+prod_types = symptom_prevalence(df, "PRODUCT", False, None)
+prod_freq = dict_sort(prod_types, "productfreqs.txt")
+
+symptom_categorizer(df, symptom_p, 'productsymptoms.txt', col_name="PRODUCT")
+
+product_symptoms = {}
+
+# with open("symptomtoproduct.txt", 'w') as f:
+#     for product in prod_types:
+#         #print(category)
+#         #filename = category_corr[category][0] + ".txt"
+#         data = df_subset(df, "PRODUCT", [product], True, True)
+#         symptoms_data = symptom_prevalence(data)
+#         symptoms = dict_sort(symptoms_data, file=False)
+#         product_symptoms[product] = symptoms
+#         #print(symptoms)
+#         f.write(product + " : " + str(symptoms) + "\n")
+
+
+for product in prod_types:
+    #print(category)
+    #filename = category_corr[category][0] + ".txt"
+    data = df_subset(df, "PRODUCT", [product], True, True)
+    symptoms_data = symptom_prevalence(data)
+    symptoms = dict_sort(symptoms_data, file=False)
+    product_symptoms[product] = symptoms
+    #print(symptoms)
+    
+with open("symptomtoproduct.txt", 'w') as f:
+    for product in prod_freq:
+        symptoms = product_symptoms[product]
+        f.write(product + " : " + str(symptoms) + "\n")
+
+#symptom_categorizer(df, prod_types, 'productsymptoms.txt', col_name="PRODUCT")
+
+
+
+#agefilter = df_subset(df, "AGE_UNITS", ["year", "decade"], False, True)
+#agefilter = df_subset(df, "PATIENT_AGE", ["5"], True, False, operator_fxn=operator.gt)
+
+#age = df[df[("PATIENT_AGE"].str.endswith(term)]
